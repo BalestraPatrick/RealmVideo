@@ -1,0 +1,14 @@
+PODS:
+  - Ji (1.2.0):
+    - Ji/Ji (= 1.2.0)
+  - Ji/Ji (1.2.0):
+    - Ji/Ji-libxml
+  - Ji/Ji-libxml (1.2.0)
+
+DEPENDENCIES:
+  - Ji (~> 1.2.0)
+
+SPEC CHECKSUMS:
+  Ji: ddebb22f9ac445db6e884b66f78ea74fb135fdb7
+
+COCOAPODS: 0.39.0
