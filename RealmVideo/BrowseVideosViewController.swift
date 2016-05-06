@@ -9,13 +9,13 @@
 import UIKit
 
 
-class BrowseVideosViewController: UIViewController, UITableViewDataSource {
+class BrowseVideosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    var welcome: WelcomeViewController?
     var videos = [Video]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         videos = RealmParser().videos
     }
     
@@ -36,6 +36,14 @@ class BrowseVideosViewController: UIViewController, UITableViewDataSource {
         cell.textLabel?.font = UIFont.boldSystemFontOfSize(15)
         cell.detailTextLabel?.text = video.url
         return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let url = videos[indexPath.row].url
+        dismissViewControllerAnimated(true) { 
+            self.welcome?.textField.text = url
+            self.welcome?.performSegueWithIdentifier("RealmVideo", sender: nil)
+        }
     }
     
     // MARK: - IBActions

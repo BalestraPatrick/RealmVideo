@@ -252,7 +252,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <segue destination="a0K-0Q-PIs" kind="presentation" id="yow-zk-lrt"/>
+                                                            <segue destination="a0K-0Q-PIs" kind="presentation" identifier="BrowseVideos" id="yow-zk-lrt"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
