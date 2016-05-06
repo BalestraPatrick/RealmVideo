@@ -3,17 +3,17 @@
 <p align="center"><img src ="Resources/demo.gif" width="550px"/></p>
 
 ## Description
-[Realm](http://realm.io) is an amazing resource to watch different talks from various conferences and meetups. They publish videos and slides of each talk and it's all great as long as you are not watching them from your iPhone or iPad. In that case, as soon as you start the video, a `MPMovieViewController` will take all the space on your screen and the slides are not visible. You can only watch the video without slides 👎
+[Realm](http://realm.io) is an amazing resource to watch different talks from various conferences and meetups. They publish videos and slides of each talk and it's all great as long as you are not watching them from your iPhone or iPad. In that case, as soon as you start the video, a `MPMovieViewController` will take all the space on your screen and the slides are not visible. Video without slides is 👎
 
 [@realm](https://twitter.com/realm) is aware of the issue but there is no real workaround as you can see from this [tweet](https://twitter.com/realm/status/727178454932832258). Until now.
 
 ## Implementation
-Realm Video uses a `UIWebView` to take advantage of the great Realm website with the slides in sync with the video. A Javascript function is used to locate the video on the page and scroll to it. The HTML element that takes care of showing the slide is also located by finding its id. A `MPMovieViewController` object is presented as soon as the video is started and a `UIView` is added on top of it. A function runs in the background every second and renders a screenshot of the current slide in the `UIWebView`. In this way we keep the video and slides always in sync. The rendered image is then added to the floating `UIView` to be always visible.
+Realm Video uses a `UIWebView` to take advantage of the great Realm website with the slides being automatically in sync with the video. A Javascript function is used to locate the video element on the page and scroll to it. The HTML element that takes care of showing the slides is also located by finding its id. A `MPMovieViewController` object is presented as soon as the video is started and a `UIView` is added on top of it by accessing the window hierarchy. A function runs in the background every second and renders a screenshot of the current slide in the `UIWebView`. In this way, we keep the video and slides always in sync. The rendered image is then added to the floating `UIView` to be always visible to the user.
 
 A few cool features:
 
 - Single tap on the slides to hide them. Tap again to show them again. 👌
-- Double tap to change the position of the slides between top left, top right, bottom left and bottom right 🔁
+- Double tap to change the position of the slides between top left, top right, bottom left and bottom right. 🔁
 - Pause the video and start again whenever you want. ⏯
 - Skip forward or backward in the video and see the slides automatically syncing with the video. 🆒
 
