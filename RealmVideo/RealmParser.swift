@@ -25,7 +25,7 @@ class RealmParser {
                     let content = a.content!
                     let link = a.attributes["href"]!
                     if content != "Read More…" {
-                        videos.append(Video(title: content, url: "https://www.realm.io\(link)"))
+                        videos.append(Video(title: content, url: "https://realm.io\(link)"))
                     }
                 }
             }
