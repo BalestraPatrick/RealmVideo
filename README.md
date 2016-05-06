@@ -1,6 +1,6 @@
 # Realm Video
 
-![](Resources/demo.gif)
+<p align="center"><img src ="Resources/demo.gif" width="550px"/></p>
 
 ## Description
 [Realm](http://realm.io) is an amazing resource to watch different talks from various conferences and meetups. They publish videos and slides of each talk and it's all great as long as you are not watching them from your iPhone or iPad. In that case, as soon as you start the video, a `MPMovieViewController` will take all the space on your screen and the slides are not visible. You can only watch the video without slides 👎
@@ -38,6 +38,6 @@ Realm uses a few different video providers. The app was tested with Youtube vide
 
 ## More images
 
-![](Resources/screenshot1.png)
-![](Resources/screenshot2.png)
-![](Resources/screenshot3.png)
+<p align="center"><img src ="Resources/screenshot1.png" width="650px"/></p>
+<p align="center"><img src ="Resources/screenshot2.png" width="650px"/></p>
+<p align="center"><img src ="Resources/screenshot3.png" width="650px"/></p>
