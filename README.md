@@ -41,3 +41,4 @@ Realm uses a few different video providers. The app was tested with Youtube vide
 <p align="center"><img src ="Resources/screenshot1.png" width="650px"/></p>
 <p align="center"><img src ="Resources/screenshot2.png" width="650px"/></p>
 <p align="center"><img src ="Resources/screenshot3.png" width="650px"/></p>
+<p align="center"><img src ="Resources/screenshot4.png" width="650px"/></p>
