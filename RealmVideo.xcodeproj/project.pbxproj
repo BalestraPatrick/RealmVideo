@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE01EFB01CDD2D6D00F200D3 /* BrowseVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */; };
 		AE5248601CDBB05B003B7454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52485F1CDBB05B003B7454 /* AppDelegate.swift */; };
 		AE5248621CDBB05B003B7454 /* RealmVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */; };
 		AE5248651CDBB05B003B7454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5248631CDBB05B003B7454 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseVideosViewController.swift; sourceTree = "<group>"; };
 		AE52485C1CDBB05B003B7454 /* RealmVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52485F1CDBB05B003B7454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmVideoViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				AE52485F1CDBB05B003B7454 /* AppDelegate.swift */,
 				AEB1B9FA1CDC02360037D310 /* WelcomeViewController.swift */,
 				AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */,
+				AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */,
 				AE5248631CDBB05B003B7454 /* Main.storyboard */,
 				AE5248661CDBB05B003B7454 /* Assets.xcassets */,
 				AE5248681CDBB05B003B7454 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE01EFB01CDD2D6D00F200D3 /* BrowseVideosViewController.swift in Sources */,
 				AEB1B9FB1CDC02360037D310 /* WelcomeViewController.swift in Sources */,
 				AE5248621CDBB05B003B7454 /* RealmVideoViewController.swift in Sources */,
 				AE5248601CDBB05B003B7454 /* AppDelegate.swift in Sources */,

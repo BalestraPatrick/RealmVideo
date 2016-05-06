@@ -1,211 +1,275 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zpB-h1-TwP">
-<dependencies>
-<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-</dependencies>
-<scenes>
-<!--Realm Video View Controller-->
-<scene sceneID="tne-QT-ifu">
-<objects>
-<viewController id="BYZ-38-t0r" customClass="RealmVideoViewController" customModule="RealmVideo" customModuleProvider="target" sceneMemberID="viewController">
-<layoutGuides>
-<viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-<viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-</layoutGuides>
-<view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-<rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<subviews>
-<webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mk2-c4-gdP">
-<rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-<color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-</webView>
-</subviews>
-<color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-<constraints>
-<constraint firstItem="Mk2-c4-gdP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4QM-an-gkA"/>
-<constraint firstAttribute="trailing" secondItem="Mk2-c4-gdP" secondAttribute="trailing" id="9Oi-Ya-NhO"/>
-<constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Mk2-c4-gdP" secondAttribute="bottom" id="eNf-C6-y1y"/>
-<constraint firstItem="Mk2-c4-gdP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qo5-3f-xDO"/>
-</constraints>
-</view>
-<connections>
-<outlet property="floatingSlides" destination="irH-e9-uTY" id="Ozb-FA-2fM"/>
-<outlet property="slideImageView" destination="Jur-nk-V80" id="28p-DL-cxB"/>
-<outlet property="webView" destination="Mk2-c4-gdP" id="Ym7-ZW-Hke"/>
-</connections>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-<view contentMode="scaleToFill" id="irH-e9-uTY">
-<rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<subviews>
-<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slides are coming..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui5-ma-8gY">
-<rect key="frame" x="30" y="53" width="181" height="21"/>
-<constraints>
-<constraint firstAttribute="width" constant="181" id="BhA-Oa-C2y"/>
-<constraint firstAttribute="height" constant="21" id="G46-VH-gvH"/>
-</constraints>
-<fontDescription key="fontDescription" type="system" pointSize="17"/>
-<color key="textColor" red="0.93333333330000001" green="0.45098039220000002" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-<nil key="highlightedColor"/>
-</label>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jur-nk-V80">
-<rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-</imageView>
-</subviews>
-<color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
-<constraints>
-<constraint firstItem="Ui5-ma-8gY" firstAttribute="centerY" secondItem="irH-e9-uTY" secondAttribute="centerY" id="0hF-io-uci"/>
-<constraint firstItem="Ui5-ma-8gY" firstAttribute="centerX" secondItem="irH-e9-uTY" secondAttribute="centerX" id="Ewa-Lc-c9X"/>
-<constraint firstAttribute="trailing" secondItem="Jur-nk-V80" secondAttribute="trailing" id="KSA-Ph-bpp"/>
-<constraint firstAttribute="bottom" secondItem="Jur-nk-V80" secondAttribute="bottom" id="Qa5-BE-REN"/>
-<constraint firstItem="Jur-nk-V80" firstAttribute="leading" secondItem="irH-e9-uTY" secondAttribute="leading" id="Vih-bw-LtI"/>
-<constraint firstItem="Jur-nk-V80" firstAttribute="top" secondItem="irH-e9-uTY" secondAttribute="top" id="ygS-k3-xC9"/>
-</constraints>
-</view>
-</objects>
-<point key="canvasLocation" x="286" y="434"/>
-</scene>
-<!--Welcome View Controller-->
-<scene sceneID="uOk-yc-xig">
-<objects>
-<viewController id="zpB-h1-TwP" customClass="WelcomeViewController" customModule="RealmVideo" customModuleProvider="target" sceneMemberID="viewController">
-<layoutGuides>
-<viewControllerLayoutGuide type="top" id="jU0-An-Kii"/>
-<viewControllerLayoutGuide type="bottom" id="2Fe-j5-gmk"/>
-</layoutGuides>
-<view key="view" contentMode="scaleToFill" id="ekh-sP-H4M">
-<rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<subviews>
-<scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="hrj-AK-bGu">
-<rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-<subviews>
-<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ez6-yI-5Fd" userLabel="Content View">
-<rect key="frame" x="0.0" y="0.0" width="600" height="182"/>
-<subviews>
-<textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="realm.io..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CcW-Oc-KxA">
-<rect key="frame" x="10" y="71" width="580" height="40"/>
-<constraints>
-<constraint firstAttribute="height" constant="40" id="tUx-DR-9cb"/>
-</constraints>
-<color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-<fontDescription key="fontDescription" type="system" pointSize="16"/>
-<textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL"/>
-</textField>
-<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paste a link to a Realm video to watch it 👍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpA-GZ-flY">
-<rect key="frame" x="0.0" y="20" width="600" height="21"/>
-<constraints>
-<constraint firstAttribute="width" constant="331" id="8VO-LW-gzb"/>
-<constraint firstAttribute="height" constant="21" id="chE-zS-Iil"/>
-</constraints>
-<fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-<color key="textColor" red="0.93333333333333335" green="0.45098039215686275" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
-<nil key="highlightedColor"/>
-<variation key="default">
-<mask key="constraints">
-<exclude reference="8VO-LW-gzb"/>
-</mask>
-</variation>
-</label>
-<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zUv-Q2-vwL">
-<rect key="frame" x="173" y="141" width="254" height="35"/>
-<subviews>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWp-K4-hAi">
-<rect key="frame" x="134" y="0.0" width="120" height="35"/>
-<color key="backgroundColor" red="0.93333333330000001" green="0.45098039220000002" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-<constraints>
-<constraint firstAttribute="width" constant="120" id="ecY-x9-5P8"/>
-<constraint firstAttribute="height" constant="35" id="mnt-mD-1Sn"/>
-</constraints>
-<state key="normal" title="Paste Clipboard">
-<color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<userDefinedRuntimeAttributes>
-<userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-<integer key="value" value="10"/>
-</userDefinedRuntimeAttribute>
-</userDefinedRuntimeAttributes>
-<connections>
-<action selector="pasteClipboardButtonPressed:" destination="zpB-h1-TwP" eventType="touchUpInside" id="gKk-b4-a8l"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KD5-DV-lqC">
-<rect key="frame" x="0.0" y="0.0" width="109" height="35"/>
-<color key="backgroundColor" red="0.93333333330000001" green="0.45098039220000002" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-<constraints>
-<constraint firstAttribute="height" constant="35" id="CW0-iL-cFL"/>
-<constraint firstAttribute="width" constant="109" id="kap-iP-bGl"/>
-</constraints>
-<state key="normal" title="Start Video">
-<color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<userDefinedRuntimeAttributes>
-<userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-<integer key="value" value="10"/>
-</userDefinedRuntimeAttribute>
-</userDefinedRuntimeAttributes>
-<connections>
-<segue destination="BYZ-38-t0r" kind="show" identifier="RealmVideo" id="QEb-ua-3sI"/>
-</connections>
-</button>
-</subviews>
-<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-<constraints>
-<constraint firstAttribute="bottom" secondItem="KD5-DV-lqC" secondAttribute="bottom" id="1kr-0S-PLm"/>
-<constraint firstItem="RWp-K4-hAi" firstAttribute="leading" secondItem="KD5-DV-lqC" secondAttribute="trailing" constant="25" id="9lF-7Y-QrD"/>
-<constraint firstItem="RWp-K4-hAi" firstAttribute="top" secondItem="zUv-Q2-vwL" secondAttribute="top" id="OIG-Jj-gF1"/>
-<constraint firstAttribute="bottom" secondItem="RWp-K4-hAi" secondAttribute="bottom" id="PRi-9Q-HGi"/>
-<constraint firstItem="KD5-DV-lqC" firstAttribute="leading" secondItem="zUv-Q2-vwL" secondAttribute="leading" id="aJ0-wp-0wS"/>
-<constraint firstItem="KD5-DV-lqC" firstAttribute="top" secondItem="zUv-Q2-vwL" secondAttribute="top" id="rzD-ii-tUR"/>
-<constraint firstAttribute="trailing" secondItem="RWp-K4-hAi" secondAttribute="trailing" id="w4c-FW-WKw"/>
-</constraints>
-</view>
-</subviews>
-<color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-<constraints>
-<constraint firstItem="CcW-Oc-KxA" firstAttribute="leading" secondItem="Ez6-yI-5Fd" secondAttribute="leading" constant="10" id="2Eh-aO-YY0"/>
-<constraint firstItem="zUv-Q2-vwL" firstAttribute="centerX" secondItem="Ez6-yI-5Fd" secondAttribute="centerX" id="DCJ-aP-SRa"/>
-<constraint firstAttribute="trailing" secondItem="CcW-Oc-KxA" secondAttribute="trailing" constant="10" id="GTr-nH-cHP"/>
-<constraint firstItem="CcW-Oc-KxA" firstAttribute="centerY" secondItem="Ez6-yI-5Fd" secondAttribute="centerY" id="IvL-bV-9iz"/>
-<constraint firstItem="CcW-Oc-KxA" firstAttribute="centerX" secondItem="Ez6-yI-5Fd" secondAttribute="centerX" id="NEh-y1-gkZ"/>
-<constraint firstItem="zUv-Q2-vwL" firstAttribute="top" secondItem="CcW-Oc-KxA" secondAttribute="bottom" constant="30" id="YnA-4N-dCg"/>
-<constraint firstAttribute="trailing" secondItem="NpA-GZ-flY" secondAttribute="trailing" id="a0J-ad-h11"/>
-<constraint firstItem="NpA-GZ-flY" firstAttribute="top" secondItem="Ez6-yI-5Fd" secondAttribute="top" constant="20" id="k6L-mO-cIL"/>
-<constraint firstItem="NpA-GZ-flY" firstAttribute="leading" secondItem="Ez6-yI-5Fd" secondAttribute="leading" id="srk-RT-Dx6"/>
-<constraint firstItem="CcW-Oc-KxA" firstAttribute="top" secondItem="NpA-GZ-flY" secondAttribute="bottom" constant="30" id="yZw-l2-KHz"/>
-</constraints>
-</view>
-</subviews>
-<constraints>
-<constraint firstItem="Ez6-yI-5Fd" firstAttribute="leading" secondItem="hrj-AK-bGu" secondAttribute="leading" id="6wu-HU-0V4"/>
-<constraint firstAttribute="bottom" secondItem="Ez6-yI-5Fd" secondAttribute="bottom" id="ENY-vh-8xs"/>
-<constraint firstItem="Ez6-yI-5Fd" firstAttribute="top" secondItem="hrj-AK-bGu" secondAttribute="top" id="f7g-i0-ua0"/>
-<constraint firstAttribute="trailing" secondItem="Ez6-yI-5Fd" secondAttribute="trailing" id="yh5-uo-OAj"/>
-</constraints>
-</scrollView>
-</subviews>
-<color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
-<constraints>
-<constraint firstItem="hrj-AK-bGu" firstAttribute="leading" secondItem="ekh-sP-H4M" secondAttribute="leading" id="51F-Qg-AdP"/>
-<constraint firstItem="Ez6-yI-5Fd" firstAttribute="width" secondItem="ekh-sP-H4M" secondAttribute="width" id="bsg-0O-S6w"/>
-<constraint firstItem="2Fe-j5-gmk" firstAttribute="top" secondItem="hrj-AK-bGu" secondAttribute="bottom" id="kmZ-kb-4PU"/>
-<constraint firstAttribute="trailing" secondItem="hrj-AK-bGu" secondAttribute="trailing" id="oKG-XS-ceg"/>
-<constraint firstItem="hrj-AK-bGu" firstAttribute="top" secondItem="jU0-An-Kii" secondAttribute="bottom" id="r0X-b9-wYS"/>
-</constraints>
-</view>
-<nil key="simulatedStatusBarMetrics"/>
-<connections>
-<outlet property="pasteClipboardButton" destination="RWp-K4-hAi" id="SbT-1b-uRd"/>
-<outlet property="scrollView" destination="hrj-AK-bGu" id="fnP-QQ-jhP"/>
-<outlet property="startVideo" destination="KD5-DV-lqC" id="ZwM-ki-tN8"/>
-<outlet property="textField" destination="CcW-Oc-KxA" id="FgV-Tu-Cke"/>
-</connections>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="sxV-MP-g7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-433" y="434"/>
-</scene>
-</scenes>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zpB-h1-TwP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Realm Video View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RealmVideoViewController" customModule="RealmVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mk2-c4-gdP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mk2-c4-gdP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4QM-an-gkA"/>
+                            <constraint firstAttribute="trailing" secondItem="Mk2-c4-gdP" secondAttribute="trailing" id="9Oi-Ya-NhO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Mk2-c4-gdP" secondAttribute="bottom" id="eNf-C6-y1y"/>
+                            <constraint firstItem="Mk2-c4-gdP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qo5-3f-xDO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="floatingSlides" destination="irH-e9-uTY" id="Ozb-FA-2fM"/>
+                        <outlet property="slideImageView" destination="Jur-nk-V80" id="28p-DL-cxB"/>
+                        <outlet property="webView" destination="Mk2-c4-gdP" id="Ym7-ZW-Hke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="irH-e9-uTY">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slides are coming..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui5-ma-8gY">
+                            <rect key="frame" x="30" y="53" width="181" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="181" id="BhA-Oa-C2y"/>
+                                <constraint firstAttribute="height" constant="21" id="G46-VH-gvH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.93333333330000001" green="0.45098039220000002" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jur-nk-V80">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Ui5-ma-8gY" firstAttribute="centerY" secondItem="irH-e9-uTY" secondAttribute="centerY" id="0hF-io-uci"/>
+                        <constraint firstItem="Ui5-ma-8gY" firstAttribute="centerX" secondItem="irH-e9-uTY" secondAttribute="centerX" id="Ewa-Lc-c9X"/>
+                        <constraint firstAttribute="trailing" secondItem="Jur-nk-V80" secondAttribute="trailing" id="KSA-Ph-bpp"/>
+                        <constraint firstAttribute="bottom" secondItem="Jur-nk-V80" secondAttribute="bottom" id="Qa5-BE-REN"/>
+                        <constraint firstItem="Jur-nk-V80" firstAttribute="leading" secondItem="irH-e9-uTY" secondAttribute="leading" id="Vih-bw-LtI"/>
+                        <constraint firstItem="Jur-nk-V80" firstAttribute="top" secondItem="irH-e9-uTY" secondAttribute="top" id="ygS-k3-xC9"/>
+                    </constraints>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="286" y="434"/>
+        </scene>
+        <!--Browse Videos View Controller-->
+        <scene sceneID="WyR-2x-0xf">
+            <objects>
+                <viewController id="a0K-0Q-PIs" customClass="BrowseVideosViewController" customModule="RealmVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4hj-GZ-3ye"/>
+                        <viewControllerLayoutGuide type="bottom" id="8qp-dj-hlf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RYV-Wi-Xgz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lp3-BH-yEf">
+                                <rect key="frame" x="10" y="10" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="RQh-py-GgG"/>
+                                    <constraint firstAttribute="height" constant="30" id="az0-mh-RQU"/>
+                                </constraints>
+                                <state key="normal" image="close-button"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="a0K-0Q-PIs" eventType="touchUpInside" id="hIN-Rp-LS1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lp3-BH-yEf" firstAttribute="top" secondItem="4hj-GZ-3ye" secondAttribute="bottom" constant="10" id="AEf-Qs-OBR"/>
+                            <constraint firstItem="lp3-BH-yEf" firstAttribute="leading" secondItem="RYV-Wi-Xgz" secondAttribute="leading" constant="10" id="PvN-qD-g8p"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lor-Dy-vHX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286" y="1156"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="uOk-yc-xig">
+            <objects>
+                <viewController id="zpB-h1-TwP" customClass="WelcomeViewController" customModule="RealmVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jU0-An-Kii"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Fe-j5-gmk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ekh-sP-H4M">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="hrj-AK-bGu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ez6-yI-5Fd" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="182"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paste a link to a Realm video to watch it 👍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpA-GZ-flY">
+                                                <rect key="frame" x="0.0" y="20" width="600" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="331" id="8VO-LW-gzb"/>
+                                                    <constraint firstAttribute="height" constant="21" id="chE-zS-Iil"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                                <color key="textColor" red="0.93333333333333335" green="0.45098039215686275" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="8VO-LW-gzb"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="realm.io..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CcW-Oc-KxA">
+                                                <rect key="frame" x="10" y="71" width="580" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="tUx-DR-9cb"/>
+                                                </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL"/>
+                                            </textField>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="dvg-CA-IEL">
+                                                <rect key="frame" x="100" y="141" width="400" height="35"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KD5-DV-lqC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="109" height="35"/>
+                                                        <color key="backgroundColor" red="0.93333333330000001" green="0.45098039220000002" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="CW0-iL-cFL"/>
+                                                            <constraint firstAttribute="width" constant="109" id="kap-iP-bGl"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Start Video">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <segue destination="BYZ-38-t0r" kind="show" identifier="RealmVideo" id="QEb-ua-3sI"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWp-K4-hAi">
+                                                        <rect key="frame" x="134.5" y="0.0" width="120" height="35"/>
+                                                        <color key="backgroundColor" red="0.93333333330000001" green="0.45098039220000002" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="120" id="ecY-x9-5P8"/>
+                                                            <constraint firstAttribute="height" constant="35" id="mnt-mD-1Sn"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Paste Clipboard">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="pasteClipboardButtonPressed:" destination="zpB-h1-TwP" eventType="touchUpInside" id="gKk-b4-a8l"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndJ-WJ-oMj">
+                                                        <rect key="frame" x="280" y="0.0" width="120" height="35"/>
+                                                        <color key="backgroundColor" red="0.93333333330000001" green="0.45098039220000002" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="7pl-CK-cbm"/>
+                                                            <constraint firstAttribute="width" constant="120" id="VMh-KS-zml"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Browse Videos">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <segue destination="a0K-0Q-PIs" kind="presentation" id="yow-zk-lrt"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="400" id="0tk-Yi-oJd"/>
+                                                    <constraint firstAttribute="height" constant="35" id="vKd-Vj-v0Z"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="CcW-Oc-KxA" firstAttribute="leading" secondItem="Ez6-yI-5Fd" secondAttribute="leading" constant="10" id="2Eh-aO-YY0"/>
+                                            <constraint firstAttribute="trailing" secondItem="CcW-Oc-KxA" secondAttribute="trailing" constant="10" id="GTr-nH-cHP"/>
+                                            <constraint firstItem="CcW-Oc-KxA" firstAttribute="centerY" secondItem="Ez6-yI-5Fd" secondAttribute="centerY" id="IvL-bV-9iz"/>
+                                            <constraint firstItem="CcW-Oc-KxA" firstAttribute="centerX" secondItem="Ez6-yI-5Fd" secondAttribute="centerX" id="NEh-y1-gkZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="NpA-GZ-flY" secondAttribute="trailing" id="a0J-ad-h11"/>
+                                            <constraint firstItem="CcW-Oc-KxA" firstAttribute="top" secondItem="NpA-GZ-flY" secondAttribute="bottom" constant="30" id="fua-s0-9BQ"/>
+                                            <constraint firstItem="dvg-CA-IEL" firstAttribute="centerX" secondItem="Ez6-yI-5Fd" secondAttribute="centerX" id="hdv-Db-ynv"/>
+                                            <constraint firstItem="CcW-Oc-KxA" firstAttribute="top" secondItem="dvg-CA-IEL" secondAttribute="bottom" constant="30" id="j4Q-XJ-dQn"/>
+                                            <constraint firstItem="NpA-GZ-flY" firstAttribute="top" secondItem="Ez6-yI-5Fd" secondAttribute="top" constant="20" id="k6L-mO-cIL"/>
+                                            <constraint firstItem="CcW-Oc-KxA" firstAttribute="top" secondItem="dvg-CA-IEL" secondAttribute="bottom" constant="-35" id="lXf-Xf-Ppz"/>
+                                            <constraint firstItem="dvg-CA-IEL" firstAttribute="top" secondItem="CcW-Oc-KxA" secondAttribute="bottom" constant="30" id="smC-cK-erA"/>
+                                            <constraint firstItem="NpA-GZ-flY" firstAttribute="leading" secondItem="Ez6-yI-5Fd" secondAttribute="leading" id="srk-RT-Dx6"/>
+                                            <constraint firstItem="dvg-CA-IEL" firstAttribute="top" secondItem="NpA-GZ-flY" secondAttribute="bottom" constant="30" id="xRh-Ga-moR"/>
+                                            <constraint firstItem="CcW-Oc-KxA" firstAttribute="top" secondItem="NpA-GZ-flY" secondAttribute="bottom" constant="30" id="yZw-l2-KHz"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="j4Q-XJ-dQn"/>
+                                                <exclude reference="lXf-Xf-Ppz"/>
+                                                <exclude reference="yZw-l2-KHz"/>
+                                                <exclude reference="xRh-Ga-moR"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Ez6-yI-5Fd" firstAttribute="leading" secondItem="hrj-AK-bGu" secondAttribute="leading" id="6wu-HU-0V4"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ez6-yI-5Fd" secondAttribute="bottom" id="ENY-vh-8xs"/>
+                                    <constraint firstItem="Ez6-yI-5Fd" firstAttribute="top" secondItem="hrj-AK-bGu" secondAttribute="top" id="f7g-i0-ua0"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ez6-yI-5Fd" secondAttribute="trailing" id="yh5-uo-OAj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hrj-AK-bGu" firstAttribute="leading" secondItem="ekh-sP-H4M" secondAttribute="leading" id="51F-Qg-AdP"/>
+                            <constraint firstItem="Ez6-yI-5Fd" firstAttribute="width" secondItem="ekh-sP-H4M" secondAttribute="width" id="bsg-0O-S6w"/>
+                            <constraint firstItem="2Fe-j5-gmk" firstAttribute="top" secondItem="hrj-AK-bGu" secondAttribute="bottom" id="kmZ-kb-4PU"/>
+                            <constraint firstAttribute="trailing" secondItem="hrj-AK-bGu" secondAttribute="trailing" id="oKG-XS-ceg"/>
+                            <constraint firstItem="hrj-AK-bGu" firstAttribute="top" secondItem="jU0-An-Kii" secondAttribute="bottom" id="r0X-b9-wYS"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="pasteClipboardButton" destination="RWp-K4-hAi" id="SbT-1b-uRd"/>
+                        <outlet property="scrollView" destination="hrj-AK-bGu" id="fnP-QQ-jhP"/>
+                        <outlet property="startVideo" destination="KD5-DV-lqC" id="ZwM-ki-tN8"/>
+                        <outlet property="textField" destination="CcW-Oc-KxA" id="FgV-Tu-Cke"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sxV-MP-g7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="434"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close-button" width="21" height="21"/>
+    </resources>
 </document>
