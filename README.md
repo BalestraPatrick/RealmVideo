@@ -20,7 +20,7 @@ A few cool features:
 This project was developed in ~7 hours. It was tested on an iPhone 6s Plus only and it could use some more work to turn it into a real app. Pull requests are very welcome!
 
 ## Installation
-No dependencies, nothing. Download, open in Xcode, build & run, enjoy. 😎
+Run `pod install` and open the workspace project in Xcode, build & run, enjoy. 😎
 
 ## Contributing
 You are very welcome to add new features and fix bugs. Feel free to open as many issues and pull requests as you want. 😏
