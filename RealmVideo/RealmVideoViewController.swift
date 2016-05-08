@@ -184,5 +184,14 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
             }
         }
     }
+    
+    // Display error and dismiss current view controller
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+        let alert = UIAlertController(title: error?.localizedDescription, message: nil, preferredStyle: .Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { _ in
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }))
+        presentViewController(alert, animated: true, completion: nil)
+    }
 }
 
