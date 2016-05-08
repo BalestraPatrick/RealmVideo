@@ -11,12 +11,19 @@ import UIKit
 
 class BrowseVideosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     var welcome: WelcomeViewController?
     var videos = [Video]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        videos = RealmParser().videos
+        do {
+            videos = try RealmParser().videos
+        } catch {
+            tableView.hidden = true
+        }
+        
     }
     
     // MARK: - UITableViewDataSource

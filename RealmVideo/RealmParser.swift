@@ -9,16 +9,21 @@
 import Foundation
 import Ji
 
+enum ParserError: ErrorType {
+    case Offline
+}
+
 class RealmParser {
     
     var videos = [Video]()
     
-    init() {
+    init() throws {
         let url = NSURL(string: "https://realm.io/news/")!
         let document = Ji(htmlURL: url)
-        let posts = document?.xPath("//div[contains(concat(' ', @class, ' '), ' post ')]")
+        let possiblePosts = document?.xPath("//div[contains(concat(' ', @class, ' '), ' post ')]")
+        guard let posts = possiblePosts else { throw ParserError.Offline }
         
-        for post in posts! {
+        for post in posts {
             if let attributes = post.attributes["data-tags"] where attributes.containsString("video") {
                 for child in post.children {
                     let a = child.firstChildWithName("a")!

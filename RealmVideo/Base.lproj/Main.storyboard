@@ -80,6 +80,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No internet connection. 📡" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6W-Mm-95g">
+                                <rect key="frame" x="20" y="289" width="560" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lp3-BH-yEf">
                                 <rect key="frame" x="10" y="10" width="30" height="30"/>
                                 <constraints>
@@ -126,7 +132,7 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest Videos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIB-5V-3na">
-                                <rect key="frame" x="225.5" y="14" width="150" height="21"/>
+                                <rect key="frame" x="225" y="14" width="150" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="XpC-Yl-aw4"/>
                                     <constraint firstAttribute="height" constant="21" id="jHf-k2-aF4"/>
@@ -138,7 +144,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="x6W-Mm-95g" secondAttribute="trailing" constant="20" id="1I6-Vh-lmw"/>
                             <constraint firstItem="lp3-BH-yEf" firstAttribute="top" secondItem="4hj-GZ-3ye" secondAttribute="bottom" constant="10" id="AEf-Qs-OBR"/>
+                            <constraint firstItem="x6W-Mm-95g" firstAttribute="leading" secondItem="RYV-Wi-Xgz" secondAttribute="leading" constant="20" id="MUI-b4-f4Z"/>
                             <constraint firstAttribute="trailing" secondItem="Qb5-jw-xnl" secondAttribute="trailing" id="NAV-zp-Mfx"/>
                             <constraint firstItem="lp3-BH-yEf" firstAttribute="leading" secondItem="RYV-Wi-Xgz" secondAttribute="leading" constant="10" id="PvN-qD-g8p"/>
                             <constraint firstItem="8qp-dj-hlf" firstAttribute="top" secondItem="Qb5-jw-xnl" secondAttribute="bottom" id="RqF-jf-MTa"/>
@@ -146,12 +154,16 @@
                             <constraint firstItem="Qb5-jw-xnl" firstAttribute="leading" secondItem="RYV-Wi-Xgz" secondAttribute="leading" id="Yp8-1h-5zx"/>
                             <constraint firstItem="DIB-5V-3na" firstAttribute="centerX" secondItem="RYV-Wi-Xgz" secondAttribute="centerX" id="ffU-tx-jBb"/>
                             <constraint firstItem="Qb5-jw-xnl" firstAttribute="top" secondItem="lp3-BH-yEf" secondAttribute="bottom" constant="8" id="iuh-yr-bHt"/>
+                            <constraint firstItem="x6W-Mm-95g" firstAttribute="centerY" secondItem="RYV-Wi-Xgz" secondAttribute="centerY" id="rK0-bQ-tmn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Qb5-jw-xnl" id="4Af-SE-jrE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lor-Dy-vHX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="286" y="1156"/>
+            <point key="canvasLocation" x="286" y="1191"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="uOk-yc-xig">
