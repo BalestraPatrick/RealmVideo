@@ -16,6 +16,7 @@ A few cool features:
 - Double tap to change the position of the slides between top left, top right, bottom left and bottom right. 🔁
 - Pause the video and start again whenever you want. ⏯
 - Skip forward or backward in the video and see the slides automatically syncing with the video. 🆒
+- Browse the latest videos from the Realm website 😎
 
 This project was developed in ~7 hours. It was tested on an iPhone 6s Plus only and it could use some more work to turn it into a real app. Pull requests are very welcome!
 
