@@ -28,6 +28,14 @@ class WelcomeViewController: UIViewController, UITextFieldDelegate {
         let placeholder = NSAttributedString(string: "realm.io/...", attributes: [NSForegroundColorAttributeName : UIColor(white: 1.0, alpha: 0.5)])
         textField.attributedPlaceholder = placeholder
         
+        let clearButton = UIButton(type: .Custom)
+        clearButton.setImage(UIImage(named: "clear-icon"), forState: .Normal)
+        clearButton.frame = CGRect(x: 0, y: 0, width: 25.0, height: 15.0)
+        clearButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 10)
+        textField.rightView = clearButton
+        textField.rightViewMode = .Always
+        clearButton.addTarget(self, action: #selector(clearTextField), forControlEvents: .TouchUpInside)
+        
         setValidLink("")
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(WelcomeViewController.keyboardWillShow(_:)), name: UIKeyboardWillShowNotification, object: nil)
@@ -66,6 +74,10 @@ class WelcomeViewController: UIViewController, UITextFieldDelegate {
             textField.text = pasteboardString
             setValidLink(pasteboardString)
         }
+    }
+    
+    func clearTextField() {
+        textField.text = ""
     }
     
     // MARK: - UITextFieldDelegate
