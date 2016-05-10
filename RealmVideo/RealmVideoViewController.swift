@@ -84,12 +84,19 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         }
     }
     
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: AVPlayerItemNewAccessLogEntryNotification, object: nil)
+    }
+    
     /// Called when the AVPlayer is started in the UIWebView
     func playerDidStart() {
-        let window = UIApplication.sharedApplication().windows.last!
-        window.rootViewController!.view.addSubview(floatingSlides)
-        window.rootViewController?.view.bringSubviewToFront(floatingSlides)
+        // Ensure we have a window, rootViewController, and that we're not adding a duplicate floating slide view
+        guard let window = UIApplication.sharedApplication().windows.last,
+            let rootViewController = window.rootViewController where
+            rootViewController.view.subviews.contains(floatingSlides) == false else { return }
         
+        rootViewController.view.addSubview(floatingSlides)
+        rootViewController.view.bringSubviewToFront(floatingSlides)
     }
     
     /// Update slides position
@@ -167,20 +174,18 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
     
     // Get position of the video and slides from the UIWebView
     func webViewDidFinishLoad(webView: UIWebView) {
-        if positionOfSlides == nil {
-            let position = positionOfElementWithId("slideshow-player") + 91.0
-            if position > 91.0 {
-                positionOfSlides = position
-            }
+        if positionOfSlides == nil && !webView.loading {
+            let position = positionOfElementWithId("slideshow-player")
+            positionOfSlides = position
         }
         
-        if positionOfVideo == nil {
-            let position = positionOfElementWithId("preroll-overlay") + 63
-            if position > 63.0 {
-                positionOfVideo = position
-            } else if position == 63.0 {
-                let youtubePosition = positionOfElementWithId("video-player") + 63
+        if positionOfVideo == nil && !webView.loading {
+            let position = positionOfElementWithId("preroll-overlay")
+            if position == 0.0 {
+                let youtubePosition = positionOfElementWithId("video-player")
                 positionOfVideo = youtubePosition
+            } else {
+                positionOfVideo = position
             }
         }
     }
@@ -194,4 +199,3 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         presentViewController(alert, animated: true, completion: nil)
     }
 }
-
