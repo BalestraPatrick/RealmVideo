@@ -10,20 +10,18 @@ import UIKit
 import AVFoundation
 import MediaPlayer
 
-let horizontalMargin: CGFloat = 20.0
+let horizontalMargin: CGFloat = 10.0
 let verticalMargin: CGFloat = 50.0
 
 class RealmVideoViewController: UIViewController, UIWebViewDelegate {
     
     @IBOutlet weak var webView: UIWebView!
-    @IBOutlet var floatingSlides: UIView!
     @IBOutlet weak var slideImageView: UIImageView!
+    @IBOutlet var floatingSlides: UIView!
     
     var positionOfSlides: CGFloat?
     var positionOfVideo: CGFloat?
-    var slidesPosition = SlidePosition.BottomRight
     var token: dispatch_once_t = 0
-    
     var videoURL: NSURL?
     
     override func viewDidLoad() {
@@ -36,23 +34,23 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         webView.alpha = 0.0
         webView.loadRequest(request)
         
-        updateSlidesPosition()
-        
         let singleTap = UITapGestureRecognizer(target: self, action: #selector(hideSlides))
         singleTap.numberOfTapsRequired = 1
         singleTap.numberOfTouchesRequired = 1
         floatingSlides.addGestureRecognizer(singleTap)
         
-        let doubleTap = UITapGestureRecognizer(target: self, action: #selector(moveSlides))
-        doubleTap.numberOfTapsRequired = 2
-        doubleTap.numberOfTouchesRequired = 1
-        floatingSlides.addGestureRecognizer(doubleTap)
-        
-        singleTap.requireGestureRecognizerToFail(doubleTap)
+        let pan = UIPanGestureRecognizer(target: self, action: #selector(moveSlides))
+        pan.maximumNumberOfTouches = 1
+        pan.minimumNumberOfTouches = 1
+        floatingSlides.addGestureRecognizer(pan)
+        singleTap.requireGestureRecognizerToFail(pan)
         
         floatingSlides.layer.shadowOffset = CGSize(width: 1, height: 1)
         floatingSlides.layer.shadowColor = UIColor.blackColor().CGColor
         floatingSlides.layer.shadowOpacity = 0.5
+        
+        let center = SlidePosition.BottomRight.snapTo(floatingSlides.frame)
+        floatingSlides.center = center
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(playerDidStart), name: AVPlayerItemNewAccessLogEntryNotification, object: nil)
     }
@@ -75,17 +73,33 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         rootViewController.view.bringSubviewToFront(floatingSlides)
     }
     
-    /// Update slides position
-    func updateSlidesPosition() {
-        UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 2.0, options: [], animations: {
-            self.floatingSlides.frame = self.position(self.slidesPosition, view: self.floatingSlides)
-            }, completion: nil)
+    /// Move the slides to the next corner
+    func moveSlides(pan: UIPanGestureRecognizer) {
+        switch pan.state {
+        case .Changed:
+            if let view = pan.view {
+                let translation = pan.translationInView(view)
+                view.center = CGPoint(x: view.center.x + translation.x, y: view.center.y + translation.y)
+                pan.setTranslation(CGPointZero, inView: view)
+            }
+        case .Ended:
+            if let panView = pan.view {
+                UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 2.0, options: [], animations: {
+                    self.snapPositionToNearestPoint(panView.center, view: panView)
+                    }, completion: nil)
+            }
+        default: break
+        }
     }
     
-    /// Move the slides to the next corner
-    func moveSlides() {
-        slidesPosition.next()
-        updateSlidesPosition()
+    /// Snap the slides to the nearest corner.
+    ///
+    /// - parameter point: Point where the view was released.
+    /// - parameter view:  Floating view displaying the slides.
+    func snapPositionToNearestPoint(point: CGPoint, view: UIView) {
+        let sector = SlidePosition.findPosition(point, slidesSize: view.frame)
+        let snappedCenter = sector.snapTo(view.frame)
+        view.center = snappedCenter
     }
     
     /// Hide the slides with a single tap
@@ -130,21 +144,6 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         let rect = CGRectFromString(result)
         return rect.origin.y
     }
-    
-    /// Calculate the correct position for the slides
-    func position(position: SlidePosition, view: UIView) -> CGRect {
-        switch position {
-        case .TopLeft:
-            return CGRect(x: horizontalMargin, y: verticalMargin, width: view.frame.width, height: view.frame.height)
-        case .TopRight:
-            return CGRect(x: self.view.frame.width - horizontalMargin - view.frame.width, y: verticalMargin, width: view.frame.width, height: view.frame.height)
-        case .BottomLeft:
-            return CGRect(x: horizontalMargin, y: self.view.frame.height - verticalMargin - view.frame.height, width: view.frame.width, height: view.frame.height)
-        case .BottomRight:
-            return CGRect(x: self.view.frame.width - horizontalMargin - view.frame.width, y: self.view.frame.height - verticalMargin - view.frame.height, width: view.frame.width, height: view.frame.height)
-        }
-    }
-    
     
     // MARK: - UIWebViewDelegate
     
