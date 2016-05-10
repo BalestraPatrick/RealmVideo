@@ -8,39 +8,23 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController, UITextFieldDelegate {
+class WelcomeViewController: UIViewController, LinkUpdater {
     
     @IBOutlet weak var textField: SearchTextField!
-    @IBOutlet weak var startVideo: UIButton!
+    @IBOutlet weak var startVideoButton: UIButton!
     @IBOutlet weak var pasteClipboardButton: UIButton!
     @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textField.delegate = self
         textField.becomeFirstResponder()
-        
-        setValidLink("")
+        textField.linkUpdaterDelegate = self
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(keyboardWillShow), name: UIKeyboardWillShowNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(keyboardWillHide), name: UIKeyboardWillHideNotification, object: nil)
     }
     
-    func setValidLink(linkString: String) {
-        let types: NSTextCheckingType = .Link
-        let detector = try? NSDataDetector(types: types.rawValue)
-        let stringResults = detector?.firstMatchInString(textField.text!, options: [], range: NSMakeRange(0, textField.text!.characters.count))
-        let pastedResults = detector?.firstMatchInString(linkString, options: [], range: NSMakeRange(0, linkString.characters.count))
-        
-        if stringResults != nil || pastedResults != nil {
-            startVideo.enabled = true
-            startVideo.alpha = 1.0
-        } else {
-            startVideo.enabled = false
-            startVideo.alpha = 0.5
-        }
-    }
     
     // MARK: - Navigation
     
@@ -57,15 +41,18 @@ class WelcomeViewController: UIViewController, UITextFieldDelegate {
     @IBAction func pasteClipboardButtonPressed(sender: AnyObject) {
         if let pasteboardString = UIPasteboard.generalPasteboard().string {
             textField.text = pasteboardString
-            setValidLink(pasteboardString)
+            updateLinkUI(pasteboardString.isValidLink())
         }
     }
     
-    // MARK: - UITextFieldDelegate
-    
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        setValidLink(string)
-        return true
+    func updateLinkUI(isValid: Bool) {
+        if isValid {
+            startVideoButton.enabled = true
+            startVideoButton.alpha = 1.0
+        } else {
+            startVideoButton.enabled = false
+            startVideoButton.alpha = 0.5
+        }
     }
     
     // MARK: - UIKeyboard Notifications

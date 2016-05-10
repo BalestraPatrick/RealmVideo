@@ -18,6 +18,7 @@
 		AE5248651CDBB05B003B7454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5248631CDBB05B003B7454 /* Main.storyboard */; };
 		AE5248671CDBB05B003B7454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5248661CDBB05B003B7454 /* Assets.xcassets */; };
 		AE52486A1CDBB05B003B7454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5248681CDBB05B003B7454 /* LaunchScreen.storyboard */; };
+		AE91EF121CE1DA9400EDBB3C /* LinkValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91EF111CE1DA9400EDBB3C /* LinkValidator.swift */; };
 		AEB1B9FB1CDC02360037D310 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1B9FA1CDC02360037D310 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		AE5248661CDBB05B003B7454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5248691CDBB05B003B7454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE52486B1CDBB05B003B7454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE91EF111CE1DA9400EDBB3C /* LinkValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkValidator.swift; sourceTree = "<group>"; };
 		AEB1B9FA1CDC02360037D310 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B9390D3F06C240F7CEC986F9 /* Pods-RealmVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmVideo/Pods-RealmVideo.release.xcconfig"; sourceTree = "<group>"; };
 		CDCCADFBC735B17A3EE39727 /* Pods_RealmVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				AE4854871CE1CB95006ADC0E /* SlidePosition.swift */,
+				AE91EF111CE1DA9400EDBB3C /* LinkValidator.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				AE01EFB01CDD2D6D00F200D3 /* BrowseVideosViewController.swift in Sources */,
 				AE01EFB41CDD479300F200D3 /* Video.swift in Sources */,
+				AE91EF121CE1DA9400EDBB3C /* LinkValidator.swift in Sources */,
 				AEB1B9FB1CDC02360037D310 /* WelcomeViewController.swift in Sources */,
 				AE5248621CDBB05B003B7454 /* RealmVideoViewController.swift in Sources */,
 				AE5248601CDBB05B003B7454 /* AppDelegate.swift in Sources */,

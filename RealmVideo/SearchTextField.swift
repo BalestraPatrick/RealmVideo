@@ -8,7 +8,15 @@
 
 import UIKit
 
-@IBDesignable class SearchTextField: UITextField {
+protocol LinkUpdater: class {
+    func updateLinkUI(isValid: Bool)
+}
+
+@IBDesignable class SearchTextField: UITextField, UITextFieldDelegate {
+    
+    weak var linkUpdaterDelegate: LinkUpdater?
+    
+    // MARK: - Initialization
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -25,6 +33,7 @@ import UIKit
         layer.borderWidth = 1.0
         layer.cornerRadius = 5.0
         tintColor = UIColor.whiteColor()
+        delegate = self
         
         let placeholder = NSAttributedString(string: "realm.io/...", attributes: [NSForegroundColorAttributeName : UIColor(white: 1.0, alpha: 0.5)])
         attributedPlaceholder = placeholder
@@ -42,5 +51,19 @@ import UIKit
         text = ""
     }
     
+    // MARK: - UITextFieldDelegate
+    
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        if let text = textField.text {
+            linkUpdaterDelegate?.updateLinkUI(text.isValidLink())
+        }
+        return true
+    }
+    
+    // IBDesignable: Make it look pretty in IB 
+    
+    override func prepareForInterfaceBuilder() {
+        setUp()
+    }
     
 }

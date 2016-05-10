@@ -210,7 +210,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="dvg-CA-IEL">
                                                 <rect key="frame" x="100" y="141" width="400" height="35"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KD5-DV-lqC">
+                                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KD5-DV-lqC">
                                                         <rect key="frame" x="0.0" y="0.0" width="109" height="35"/>
                                                         <color key="backgroundColor" red="0.93333333330000001" green="0.45098039220000002" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
@@ -322,7 +322,7 @@
                     <connections>
                         <outlet property="pasteClipboardButton" destination="RWp-K4-hAi" id="SbT-1b-uRd"/>
                         <outlet property="scrollView" destination="hrj-AK-bGu" id="fnP-QQ-jhP"/>
-                        <outlet property="startVideo" destination="KD5-DV-lqC" id="ZwM-ki-tN8"/>
+                        <outlet property="startVideoButton" destination="KD5-DV-lqC" id="meN-mo-1Xv"/>
                         <outlet property="textField" destination="CcW-Oc-KxA" id="FgV-Tu-Cke"/>
                     </connections>
                 </viewController>
