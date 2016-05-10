@@ -84,10 +84,6 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         }
     }
     
-    deinit {
-        NSNotificationCenter.defaultCenter().removeObserver(self, name: AVPlayerItemNewAccessLogEntryNotification, object: nil)
-    }
-    
     /// Called when the AVPlayer is started in the UIWebView
     func playerDidStart() {
         // Ensure we have a window, rootViewController, and that we're not adding a duplicate floating slide view
