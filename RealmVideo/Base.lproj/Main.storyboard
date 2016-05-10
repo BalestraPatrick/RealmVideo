@@ -198,7 +198,7 @@
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="realm.io..." textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="CcW-Oc-KxA">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="realm.io..." textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="CcW-Oc-KxA" customClass="SearchTextField" customModule="RealmVideo" customModuleProvider="target">
                                                 <rect key="frame" x="10" y="71" width="580" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="tUx-DR-9cb"/>

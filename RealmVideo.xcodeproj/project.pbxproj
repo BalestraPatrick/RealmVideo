@@ -12,6 +12,7 @@
 		AE01EFB21CDD478000F200D3 /* RealmParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01EFB11CDD478000F200D3 /* RealmParser.swift */; };
 		AE01EFB41CDD479300F200D3 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01EFB31CDD479300F200D3 /* Video.swift */; };
 		AE4854881CE1CB95006ADC0E /* SlidePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4854871CE1CB95006ADC0E /* SlidePosition.swift */; };
+		AE48548E1CE1CFF8006ADC0E /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48548D1CE1CFF8006ADC0E /* SearchTextField.swift */; };
 		AE5248601CDBB05B003B7454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52485F1CDBB05B003B7454 /* AppDelegate.swift */; };
 		AE5248621CDBB05B003B7454 /* RealmVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */; };
 		AE5248651CDBB05B003B7454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5248631CDBB05B003B7454 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		AE01EFB11CDD478000F200D3 /* RealmParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmParser.swift; sourceTree = "<group>"; };
 		AE01EFB31CDD479300F200D3 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		AE4854871CE1CB95006ADC0E /* SlidePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidePosition.swift; sourceTree = "<group>"; };
+		AE48548D1CE1CFF8006ADC0E /* SearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		AE52485C1CDBB05B003B7454 /* RealmVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52485F1CDBB05B003B7454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmVideoViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		AE48548F1CE1CFFE006ADC0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE48548D1CE1CFF8006ADC0E /* SearchTextField.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		AE5248531CDBB05B003B7454 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 			children = (
 				AE52485F1CDBB05B003B7454 /* AppDelegate.swift */,
 				AE4854891CE1CBA8006ADC0E /* View Controllers */,
+				AE48548F1CE1CFFE006ADC0E /* Views */,
 				AE48548A1CE1CBB1006ADC0E /* Parsing */,
 				AE48548C1CE1CBCA006ADC0E /* Utils */,
 				AE48548B1CE1CBC5006ADC0E /* Model */,
@@ -264,6 +275,7 @@
 				AE5248601CDBB05B003B7454 /* AppDelegate.swift in Sources */,
 				AE4854881CE1CB95006ADC0E /* SlidePosition.swift in Sources */,
 				AE01EFB21CDD478000F200D3 /* RealmParser.swift in Sources */,
+				AE48548E1CE1CFF8006ADC0E /* SearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
