@@ -13,26 +13,6 @@ import MediaPlayer
 let horizontalMargin: CGFloat = 20.0
 let verticalMargin: CGFloat = 50.0
 
-enum SlidePosition {
-    case TopLeft
-    case TopRight
-    case BottomLeft
-    case BottomRight
-    
-    mutating func next() {
-        switch self {
-        case .TopLeft:
-            self = .TopRight
-        case .TopRight:
-            self = .BottomLeft
-        case .BottomLeft:
-            self = .BottomRight
-        case .BottomRight:
-            self = .TopLeft
-        }
-    }
-}
-
 class RealmVideoViewController: UIViewController, UIWebViewDelegate {
     
     @IBOutlet weak var webView: UIWebView!

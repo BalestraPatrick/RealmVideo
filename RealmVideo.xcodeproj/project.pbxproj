@@ -11,6 +11,7 @@
 		AE01EFB01CDD2D6D00F200D3 /* BrowseVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */; };
 		AE01EFB21CDD478000F200D3 /* RealmParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01EFB11CDD478000F200D3 /* RealmParser.swift */; };
 		AE01EFB41CDD479300F200D3 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01EFB31CDD479300F200D3 /* Video.swift */; };
+		AE4854881CE1CB95006ADC0E /* SlidePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4854871CE1CB95006ADC0E /* SlidePosition.swift */; };
 		AE5248601CDBB05B003B7454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52485F1CDBB05B003B7454 /* AppDelegate.swift */; };
 		AE5248621CDBB05B003B7454 /* RealmVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */; };
 		AE5248651CDBB05B003B7454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5248631CDBB05B003B7454 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseVideosViewController.swift; sourceTree = "<group>"; };
 		AE01EFB11CDD478000F200D3 /* RealmParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmParser.swift; sourceTree = "<group>"; };
 		AE01EFB31CDD479300F200D3 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AE4854871CE1CB95006ADC0E /* SlidePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidePosition.swift; sourceTree = "<group>"; };
 		AE52485C1CDBB05B003B7454 /* RealmVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE52485F1CDBB05B003B7454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmVideoViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AE4854891CE1CBA8006ADC0E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1B9FA1CDC02360037D310 /* WelcomeViewController.swift */,
+				AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */,
+				AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AE48548A1CE1CBB1006ADC0E /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				AE01EFB11CDD478000F200D3 /* RealmParser.swift */,
+			);
+			name = Parsing;
+			sourceTree = "<group>";
+		};
+		AE48548B1CE1CBC5006ADC0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE01EFB31CDD479300F200D3 /* Video.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE48548C1CE1CBCA006ADC0E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AE4854871CE1CB95006ADC0E /* SlidePosition.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		AE5248531CDBB05B003B7454 = {
 			isa = PBXGroup;
 			children = (
@@ -78,14 +114,13 @@
 			isa = PBXGroup;
 			children = (
 				AE52485F1CDBB05B003B7454 /* AppDelegate.swift */,
-				AEB1B9FA1CDC02360037D310 /* WelcomeViewController.swift */,
-				AE5248611CDBB05B003B7454 /* RealmVideoViewController.swift */,
-				AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */,
-				AE01EFB11CDD478000F200D3 /* RealmParser.swift */,
-				AE01EFB31CDD479300F200D3 /* Video.swift */,
+				AE4854891CE1CBA8006ADC0E /* View Controllers */,
+				AE48548A1CE1CBB1006ADC0E /* Parsing */,
+				AE48548C1CE1CBCA006ADC0E /* Utils */,
+				AE48548B1CE1CBC5006ADC0E /* Model */,
 				AE5248631CDBB05B003B7454 /* Main.storyboard */,
-				AE5248661CDBB05B003B7454 /* Assets.xcassets */,
 				AE5248681CDBB05B003B7454 /* LaunchScreen.storyboard */,
+				AE5248661CDBB05B003B7454 /* Assets.xcassets */,
 				AE52486B1CDBB05B003B7454 /* Info.plist */,
 			);
 			path = RealmVideo;
@@ -227,6 +262,7 @@
 				AEB1B9FB1CDC02360037D310 /* WelcomeViewController.swift in Sources */,
 				AE5248621CDBB05B003B7454 /* RealmVideoViewController.swift in Sources */,
 				AE5248601CDBB05B003B7454 /* AppDelegate.swift in Sources */,
+				AE4854881CE1CB95006ADC0E /* SlidePosition.swift in Sources */,
 				AE01EFB21CDD478000F200D3 /* RealmParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
