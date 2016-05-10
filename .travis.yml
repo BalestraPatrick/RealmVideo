@@ -3,7 +3,7 @@ cache: cocoapods
 osx_image: xcode7.3
 
 before_install:
-- gem install cocoapods
+# - gem install cocoapods
 - gem install xcpretty
 
 script:
