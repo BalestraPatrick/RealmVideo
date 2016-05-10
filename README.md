@@ -1,4 +1,7 @@
 # Realm Video
+[![CI Status](http://img.shields.io/travis/BalestraPatrick/RealmVideo.svg?style=flat)](https://travis-ci.org/BalestraPatrick/ValueStepper)
+![License](https://img.shields.io/npm/l/express.svg)
+![Platform](https://img.shields.io/badge/platform-ios-lightgray.svg)
 
 <p align="center"><img src ="Resources/demo.gif" width="550px"/></p>
 
