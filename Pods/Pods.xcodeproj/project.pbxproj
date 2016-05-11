@@ -1,2617 +1,727 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0045D36A87ECD18EF31B00F21ECD1444</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3DDD15ED82A8D20203D865EC43FAD364</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>014B7E761E65E2D320E17DC1912CE6B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>nanohttp.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/nanohttp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0198AA483AAD14F2649919D1450FA169</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-RealmVideo-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03737D9FDC1EB94147D3B34008C88744</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlregexp.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlregexp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>039B40776E5336AD6D0E6D9D397B3BD2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03737D9FDC1EB94147D3B34008C88744</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>079BA57E2F59E98B2DE96CC80DB0D14E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlunicode.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlunicode.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09AEAA47AB218CE728897D089159A1ED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-RealmVideo.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09B73FBA3C1331BE920760F5B4922D3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>relaxng.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/relaxng.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0DE72717F59D3385C825BEBBABA0C935</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6A1EBD05C3405E0212CC06B94F605FDE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E161B012DF760EFC3B57287C7AF70A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98EB00CA2E48953775946631206AA905</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0E2F53D8546E9AD0DC956ED182C44CCC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>valid.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/valid.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F298261276EDFAC345A48DD6D7ABD22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0F584CC2613B76636C6A61510FB4CF76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAX.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/SAX.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F6827385DDEDFA2A0E1BA3C8AF3872B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8330212B33FC1EB3515D7AE5CC17B39F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Ji/Ji-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Ji/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Ji/Ji.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>Ji</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0FC810E1946B42ACF0B7602E4B17C6B9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DB766770FD10F67E557826E221C779A4</string>
-				<string>71709D0634A69B9387D0EE63C1100D16</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>10B6EC8822A45DAB965E85091D642AF1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D791893AD099AFA7750BAB36AF261E4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>11E93A1EA72A57BDAC41A787839498D0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>15D0FDD6F46B3DE7E051403CFB63D305</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1291DEFD3236396B06655FFFE03E8FC7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14D188EA8B1729CEB39BD82BD5A641E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>schematron.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/schematron.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>155E30F0F80FA1FEB4A598682A72B799</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>JiNode.swift</string>
-			<key>path</key>
-			<string>Source/JiNode.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15D0FDD6F46B3DE7E051403CFB63D305</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xpathInternals.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xpathInternals.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>166AC4687460E8FBC7372C63ACCABE5A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xlink.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xlink.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>167628074131DA96D4542E0F385CFDB2</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A8BF3AA17474514C2768B344C1904088</string>
-				<string>0F6827385DDEDFA2A0E1BA3C8AF3872B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>180C12259929E59DFCC3B28DB71F0904</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14D188EA8B1729CEB39BD82BD5A641E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1A8CE03ECF2CB6FC9DCF3AC95988CE1B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlreader.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlreader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C96561DB8669E13674C39E37F1034F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>list.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/list.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>224603652248C1244F4E545B7DADECC9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09B73FBA3C1331BE920760F5B4922D3B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>237B94B5E203D1796927B994406F03A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3EF226E1F4B2230AD9F376A3DDC0A3F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>295EA5AD6B94824349E18FEDB10D107D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>debugXML.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/debugXML.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B389FAB51F6EEA43F72CA7BDC8E8E28</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2D00E5529619E9730AEA0570EFDF3135</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D25B189C3B1ACF2A3C389EC452BECF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2B389FAB51F6EEA43F72CA7BDC8E8E28</string>
-				<string>5A0C6FE968931D888F00C9EC18DDF5BC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>30B781E42D21B678AB1873BAA5B2A175</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlIO.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlIO.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3376DD68677EF0FDF0DA5E9217916815</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CD5CDE24E7F94D94C56D2AF09C5AA48B</string>
-				<string>5902D97456F46DBC44BDF9BAA7F805EF</string>
-				<string>E917BB2160AF8EC4B371D98E96583ADB</string>
-				<string>9E6011855668F15531BD76A2ABBCE187</string>
-				<string>835529C373DBDE2A86FA5619FDE687F6</string>
-				<string>2D00E5529619E9730AEA0570EFDF3135</string>
-				<string>EE5B93C6C565FBF1268737BFF19DEBD6</string>
-				<string>A55122137FEB60AACFD9C918140AC31B</string>
-				<string>BB7F3AC6CBB7015B8ED6473340FBD7A1</string>
-				<string>60CCB01180E6C3C03C5E3F8467615E69</string>
-				<string>D0BB295A2FF203876F17B2790D96F75D</string>
-				<string>827CFED0C304D4FDBE940B92342E12E9</string>
-				<string>990C4D1EA23ABBEB166E5EF15A94B141</string>
-				<string>0045D36A87ECD18EF31B00F21ECD1444</string>
-				<string>9078F99433753636A03548D567950568</string>
-				<string>EAA9B58CE90D02C49A055D3D48E0C7E7</string>
-				<string>574B76A597FCB1495325EBA752512C85</string>
-				<string>C95B93EDF3F86837F089B3DDDFE02193</string>
-				<string>224603652248C1244F4E545B7DADECC9</string>
-				<string>F1DAEC5F34DF28A7E8AA9B1FA1DC3C18</string>
-				<string>B9E14AECCBF6D2CAF467FB7A4F787EF7</string>
-				<string>E3850C4A57C621F582D20409B24CBB47</string>
-				<string>180C12259929E59DFCC3B28DB71F0904</string>
-				<string>76F239D6265A211592E0A9D41392DE22</string>
-				<string>AAFFAD4A23BB4331E6AD0A7B80071510</string>
-				<string>B103171E814AEA1E0F38516579926C84</string>
-				<string>D6E4581E61C97E79686B59799D19283B</string>
-				<string>3AAE9B1263A8581B4A1041F9A9E79D4F</string>
-				<string>91AA0953BB32D4B14E3A8F73F0B42A5C</string>
-				<string>0E161B012DF760EFC3B57287C7AF70A1</string>
-				<string>10B6EC8822A45DAB965E85091D642AF1</string>
-				<string>44825A56C9DAA2FC6CB21B8C2E60CA54</string>
-				<string>A01EC2A1716BD028B444BF36D998E912</string>
-				<string>5303FC02F62F7AEF25E019D48CF3E2FB</string>
-				<string>7596309E6A8F31006D97CC9E21126E15</string>
-				<string>E8C5F762562F18C03793B174E1167C23</string>
-				<string>039B40776E5336AD6D0E6D9D397B3BD2</string>
-				<string>5D587FEC5E688FB42A4A28D73DC63F2D</string>
-				<string>B284A3ACBF673247B1162EE9862F26B8</string>
-				<string>D83FD0E57655809EA7A1BC49AF5F3D8D</string>
-				<string>237B94B5E203D1796927B994406F03A5</string>
-				<string>578B237ECBF428DF13753659E0DDE5A7</string>
-				<string>57CD2095FEB53B0E49272E0FC72E2AA8</string>
-				<string>B4106709CD46C30ADE8E017AF31BE2F8</string>
-				<string>B89EEEB847EC725CC604BC2642F0FC88</string>
-				<string>11E93A1EA72A57BDAC41A787839498D0</string>
-				<string>6FC23C60E31045CE7E9AE717F24F4D2A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>33FBCEA79F34847536396F9D1F3EC34D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>c14n.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/c14n.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3426657066760C3E173961368756C640</key>
-		<dict>
-			<key>fileRef</key>
-			<string>97FE5341122140BF66224A9FC5355FEF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3AAE9B1263A8581B4A1041F9A9E79D4F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F8518BF57F1CD232BF7CC037689F3AE7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3CD68AFE461DCF2D210752D8CB6A8E0B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0FC810E1946B42ACF0B7602E4B17C6B9</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FEFC3F3BF4C527EFBE3798F44A76582D</string>
-				<string>8B80BF0443FBCC5A3A89C7903C7077F5</string>
-				<string>5261E3B4F128D0FF8A79346B86E0AB71</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>4F0CB680ADED822103FF15175615828C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-RealmVideo</string>
-			<key>productName</key>
-			<string>Pods-RealmVideo</string>
-			<key>productReference</key>
-			<string>CDD670BAC7A5C3CDB0832C9343EB0586</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>3DDD15ED82A8D20203D865EC43FAD364</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>nanoftp.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/nanoftp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3EF226E1F4B2230AD9F376A3DDC0A3F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlstring.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlstring.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>431EEA90403F3063B6B1C4BE76979E83</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>uri.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/uri.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44825A56C9DAA2FC6CB21B8C2E60CA54</key>
-		<dict>
-			<key>fileRef</key>
-			<string>990B7114C3BECAA7BB9A37B1EF502978</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4F0CB680ADED822103FF15175615828C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Ji</string>
-			<key>target</key>
-			<string>C4F1DB440B42642636E376448A196E87</string>
-			<key>targetProxy</key>
-			<string>8C6D984663707C5D4FB231AA2A45AC1B</string>
-		</dict>
-		<key>50DD815E995A0B0379F4C60A9146FE10</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>33FBCEA79F34847536396F9D1F3EC34D</string>
-				<string>80D31C7B982F7565127DD5C88544EB48</string>
-				<string>85E364163845AD30451076C7238C85A6</string>
-				<string>295EA5AD6B94824349E18FEDB10D107D</string>
-				<string>5334D5F6174249D312F86615C0B15BA0</string>
-				<string>5D25B189C3B1ACF2A3C389EC452BECF4</string>
-				<string>B680DF30107B87DEA4B6D4E29D1F65A7</string>
-				<string>B831AD90CECF5DA2347E71B481E8DF44</string>
-				<string>BF5F12178DBF0C5DD0008E0EC5FDC9CC</string>
-				<string>9360BE60B86BAF758E0A1FB387A50F1E</string>
-				<string>A38AE3B8E142CA64C35F660EEB5D4B21</string>
-				<string>1C96561DB8669E13674C39E37F1034F9</string>
-				<string>3DDD15ED82A8D20203D865EC43FAD364</string>
-				<string>014B7E761E65E2D320E17DC1912CE6B2</string>
-				<string>9B6C473D01EC0D605424BB0F1A9FA5E9</string>
-				<string>AEE8A1EF2ED2BD3AB6092E62807BA4AC</string>
-				<string>D25DECF3EA02C5A4541179F978A078C2</string>
-				<string>09B73FBA3C1331BE920760F5B4922D3B</string>
-				<string>0F584CC2613B76636C6A61510FB4CF76</string>
-				<string>57737C4EE146DABFF275D43F37942ED7</string>
-				<string>A4A2B7201F243FCC98FC90515853F4E5</string>
-				<string>14D188EA8B1729CEB39BD82BD5A641E2</string>
-				<string>BD3E5F1DD06896D732A50F2F7FAE9CFE</string>
-				<string>C74EA216CCF31F0B1118FFCB5492E5C6</string>
-				<string>431EEA90403F3063B6B1C4BE76979E83</string>
-				<string>0E2F53D8546E9AD0DC956ED182C44CCC</string>
-				<string>F8518BF57F1CD232BF7CC037689F3AE7</string>
-				<string>166AC4687460E8FBC7372C63ACCABE5A</string>
-				<string>98EB00CA2E48953775946631206AA905</string>
-				<string>D791893AD099AFA7750BAB36AF261E4A</string>
-				<string>990B7114C3BECAA7BB9A37B1EF502978</string>
-				<string>30B781E42D21B678AB1873BAA5B2A175</string>
-				<string>E68AC3A3F72B9FB63FF122ED3E706573</string>
-				<string>CAA40C28B18676A0C7D854A0DE266AB5</string>
-				<string>1A8CE03ECF2CB6FC9DCF3AC95988CE1B</string>
-				<string>03737D9FDC1EB94147D3B34008C88744</string>
-				<string>616DF624486EE1A9C3A2AF812209BCB1</string>
-				<string>966CC92E888AFA43F0FF415BFFA8CC03</string>
-				<string>64EC44A09D4AE1358B9B8674B39F28E5</string>
-				<string>3EF226E1F4B2230AD9F376A3DDC0A3F8</string>
-				<string>079BA57E2F59E98B2DE96CC80DB0D14E</string>
-				<string>7F31B5F30EA50FEF437B9EF93281BA45</string>
-				<string>8AC91B05332B44CF62ADD33A5397BA68</string>
-				<string>97FA78EDD9D13B12A112F4CBD1E43DF9</string>
-				<string>15D0FDD6F46B3DE7E051403CFB63D305</string>
-				<string>DEA356F9F6A72B750513F646CCB88352</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Ji-libxml</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50FCA6DF46B52264016842429D536A06</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>851C25FE25DAA72DB66F633242DE21E7</string>
-				<string>FD82F4E5C61BB0A9935964E472A50A51</string>
-				<string>155E30F0F80FA1FEB4A598682A72B799</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Ji</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51494E45FA68AB11359AC5AAACE1013F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8BF7C0F87033B685FD1055FB2FBB9866</string>
-				<string>7D602B77F9E642AB6544FCA234B2BBE6</string>
-				<string>EC8D7C7F4B1150EE5A76A899623AE575</string>
-				<string>56DEBECFBDF1C50266C5306FA7B3D188</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5261E3B4F128D0FF8A79346B86E0AB71</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0F298261276EDFAC345A48DD6D7ABD22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5303FC02F62F7AEF25E019D48CF3E2FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E68AC3A3F72B9FB63FF122ED3E706573</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5334D5F6174249D312F86615C0B15BA0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>dict.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/dict.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56DEBECFBDF1C50266C5306FA7B3D188</key>
-		<dict>
-			<key>fileRef</key>
-			<string>155E30F0F80FA1FEB4A598682A72B799</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>574B76A597FCB1495325EBA752512C85</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AEE8A1EF2ED2BD3AB6092E62807BA4AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>57737C4EE146DABFF275D43F37942ED7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAX2.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/SAX2.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>578B237ECBF428DF13753659E0DDE5A7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>079BA57E2F59E98B2DE96CC80DB0D14E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>57CD2095FEB53B0E49272E0FC72E2AA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F31B5F30EA50FEF437B9EF93281BA45</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5902D97456F46DBC44BDF9BAA7F805EF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80D31C7B982F7565127DD5C88544EB48</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5A0C6FE968931D888F00C9EC18DDF5BC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5D25B189C3B1ACF2A3C389EC452BECF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>encoding.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/encoding.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D587FEC5E688FB42A4A28D73DC63F2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>616DF624486EE1A9C3A2AF812209BCB1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5E39D4022DB35B883B73505E603D50FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-RealmVideo-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60CCB01180E6C3C03C5E3F8467615E69</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9360BE60B86BAF758E0A1FB387A50F1E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>616DF624486EE1A9C3A2AF812209BCB1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlsave.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlsave.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64EC44A09D4AE1358B9B8674B39F28E5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlschemastypes.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlschemastypes.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A1EBD05C3405E0212CC06B94F605FDE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2808AFB192C7A8B085E06527803AA37</string>
-				<string>EC06355F8DD0D5CC290DF6058151B155</string>
-				<string>0198AA483AAD14F2649919D1450FA169</string>
-				<string>9F677537C695F4BD329DD574786665C9</string>
-				<string>97FE5341122140BF66224A9FC5355FEF</string>
-				<string>8C309BDD27B0F40ED7C34AA1354CFF99</string>
-				<string>5E39D4022DB35B883B73505E603D50FE</string>
-				<string>A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE</string>
-				<string>09AEAA47AB218CE728897D089159A1ED</string>
-				<string>C1BB97FDF326D07DC972F719EE97231E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-RealmVideo</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-RealmVideo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A2C48780EEC0B82AF0B6A31CF8870FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Ji.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E035FF1C78EF0C5F26B54BE683E122A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Ji-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FC23C60E31045CE7E9AE717F24F4D2A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DEA356F9F6A72B750513F646CCB88352</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>71709D0634A69B9387D0EE63C1100D16</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C1BB97FDF326D07DC972F719EE97231E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-RealmVideo/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-RealmVideo/Pods-RealmVideo.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_RealmVideo</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7189F6F7E01F93D2B6857CD0D0861953</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Ji-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7596309E6A8F31006D97CC9E21126E15</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CAA40C28B18676A0C7D854A0DE266AB5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>76F239D6265A211592E0A9D41392DE22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD3E5F1DD06896D732A50F2F7FAE9CFE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>78380B790F4E359C132D25F870302602</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Ji.framework</string>
-			<key>path</key>
-			<string>Ji.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>78AB090F7E83FD0E1D29C20BDF1B2014</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D602B77F9E642AB6544FCA234B2BBE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>851C25FE25DAA72DB66F633242DE21E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>7EEC4DFDB9898E51217179C48DFA6ED7</string>
-				<string>E90D2082C7D2AC5600875EB7B297B304</string>
-				<string>0DE72717F59D3385C825BEBBABA0C935</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EEC4DFDB9898E51217179C48DFA6ED7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B094E57444C497562FA22BD761A335F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F31B5F30EA50FEF437B9EF93281BA45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlversion.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlversion.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80D31C7B982F7565127DD5C88544EB48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>catalog.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/catalog.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>827CFED0C304D4FDBE940B92342E12E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7189F6F7E01F93D2B6857CD0D0861953</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8330212B33FC1EB3515D7AE5CC17B39F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Ji.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835529C373DBDE2A86FA5619FDE687F6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5334D5F6174249D312F86615C0B15BA0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>851C25FE25DAA72DB66F633242DE21E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Ji.swift</string>
-			<key>path</key>
-			<string>Source/Ji.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85E364163845AD30451076C7238C85A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>chvalid.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/chvalid.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A1A2B93B4823172875B13036DA2F376</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8AC91B05332B44CF62ADD33A5397BA68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlwriter.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlwriter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B80BF0443FBCC5A3A89C7903C7077F5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>78AB090F7E83FD0E1D29C20BDF1B2014</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8BF7C0F87033B685FD1055FB2FBB9866</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E035FF1C78EF0C5F26B54BE683E122A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C309BDD27B0F40ED7C34AA1354CFF99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-RealmVideo-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C6D984663707C5D4FB231AA2A45AC1B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C4F1DB440B42642636E376448A196E87</string>
-			<key>remoteInfo</key>
-			<string>Ji</string>
-		</dict>
-		<key>9078F99433753636A03548D567950568</key>
-		<dict>
-			<key>fileRef</key>
-			<string>014B7E761E65E2D320E17DC1912CE6B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>91AA0953BB32D4B14E3A8F73F0B42A5C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>166AC4687460E8FBC7372C63ACCABE5A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9360BE60B86BAF758E0A1FB387A50F1E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>HTMLparser.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/HTMLparser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>966CC92E888AFA43F0FF415BFFA8CC03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlschemas.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlschemas.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97FA78EDD9D13B12A112F4CBD1E43DF9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xpath.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xpath.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97FE5341122140BF66224A9FC5355FEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-RealmVideo-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98EB00CA2E48953775946631206AA905</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlautomata.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlautomata.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>990B7114C3BECAA7BB9A37B1EF502978</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlexports.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlexports.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>990C4D1EA23ABBEB166E5EF15A94B141</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1C96561DB8669E13674C39E37F1034F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9B6C473D01EC0D605424BB0F1A9FA5E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>parser.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/parser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C219642E389B066EB1B6F38F25EC07D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1291DEFD3236396B06655FFFE03E8FC7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9E6011855668F15531BD76A2ABBCE187</key>
-		<dict>
-			<key>fileRef</key>
-			<string>295EA5AD6B94824349E18FEDB10D107D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9F677537C695F4BD329DD574786665C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-RealmVideo-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A01EC2A1716BD028B444BF36D998E912</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30B781E42D21B678AB1873BAA5B2A175</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A38AE3B8E142CA64C35F660EEB5D4B21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>HTMLtree.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/HTMLtree.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4A2B7201F243FCC98FC90515853F4E5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>schemasInternals.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/schemasInternals.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A55122137FEB60AACFD9C918140AC31B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B831AD90CECF5DA2347E71B481E8DF44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-RealmVideo-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A8BF3AA17474514C2768B344C1904088</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8330212B33FC1EB3515D7AE5CC17B39F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Ji/Ji-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Ji/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Ji/Ji.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>Ji</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AAFFAD4A23BB4331E6AD0A7B80071510</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C74EA216CCF31F0B1118FFCB5492E5C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AEE8A1EF2ED2BD3AB6092E62807BA4AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>parserInternals.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/parserInternals.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B094E57444C497562FA22BD761A335F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>50FCA6DF46B52264016842429D536A06</string>
-				<string>50DD815E995A0B0379F4C60A9146FE10</string>
-				<string>FC129F873C8046937630858D131339D1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Ji</string>
-			<key>path</key>
-			<string>Ji</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B103171E814AEA1E0F38516579926C84</key>
-		<dict>
-			<key>fileRef</key>
-			<string>431EEA90403F3063B6B1C4BE76979E83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B284A3ACBF673247B1162EE9862F26B8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>966CC92E888AFA43F0FF415BFFA8CC03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B4106709CD46C30ADE8E017AF31BE2F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8AC91B05332B44CF62ADD33A5397BA68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B680DF30107B87DEA4B6D4E29D1F65A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>entities.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/entities.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B831AD90CECF5DA2347E71B481E8DF44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>globals.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/globals.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B89EEEB847EC725CC604BC2642F0FC88</key>
-		<dict>
-			<key>fileRef</key>
-			<string>97FA78EDD9D13B12A112F4CBD1E43DF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B9E14AECCBF6D2CAF467FB7A4F787EF7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>57737C4EE146DABFF275D43F37942ED7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BB7F3AC6CBB7015B8ED6473340FBD7A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF5F12178DBF0C5DD0008E0EC5FDC9CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD3E5F1DD06896D732A50F2F7FAE9CFE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>threads.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/threads.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF5F12178DBF0C5DD0008E0EC5FDC9CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>hash.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/hash.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1BB97FDF326D07DC972F719EE97231E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-RealmVideo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4F1DB440B42642636E376448A196E87</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>167628074131DA96D4542E0F385CFDB2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>51494E45FA68AB11359AC5AAACE1013F</string>
-				<string>9C219642E389B066EB1B6F38F25EC07D</string>
-				<string>3376DD68677EF0FDF0DA5E9217916815</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Ji</string>
-			<key>productName</key>
-			<string>Ji</string>
-			<key>productReference</key>
-			<string>78380B790F4E359C132D25F870302602</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>C74EA216CCF31F0B1118FFCB5492E5C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>tree.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/tree.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C95B93EDF3F86837F089B3DDDFE02193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D25DECF3EA02C5A4541179F978A078C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CAA40C28B18676A0C7D854A0DE266AB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlmodule.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlmodule.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD5CDE24E7F94D94C56D2AF09C5AA48B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33FBCEA79F34847536396F9D1F3EC34D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CDD670BAC7A5C3CDB0832C9343EB0586</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_RealmVideo.framework</string>
-			<key>path</key>
-			<string>Pods_RealmVideo.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D0BB295A2FF203876F17B2790D96F75D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A38AE3B8E142CA64C35F660EEB5D4B21</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D25DECF3EA02C5A4541179F978A078C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>pattern.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/pattern.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>E90D2082C7D2AC5600875EB7B297B304</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C4F1DB440B42642636E376448A196E87</string>
-				<string>3CD68AFE461DCF2D210752D8CB6A8E0B</string>
-			</array>
-		</dict>
-		<key>D6E4581E61C97E79686B59799D19283B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E2F53D8546E9AD0DC956ED182C44CCC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D791893AD099AFA7750BAB36AF261E4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlerror.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlerror.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D83FD0E57655809EA7A1BC49AF5F3D8D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64EC44A09D4AE1358B9B8674B39F28E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DB766770FD10F67E557826E221C779A4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>09AEAA47AB218CE728897D089159A1ED</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-RealmVideo/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-RealmVideo/Pods-RealmVideo.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_RealmVideo</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DEA356F9F6A72B750513F646CCB88352</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xpointer.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xpointer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2808AFB192C7A8B085E06527803AA37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3850C4A57C621F582D20409B24CBB47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A4A2B7201F243FCC98FC90515853F4E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E68AC3A3F72B9FB63FF122ED3E706573</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xmlmemory.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xmlmemory.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8C5F762562F18C03793B174E1167C23</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A8CE03ECF2CB6FC9DCF3AC95988CE1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E90D2082C7D2AC5600875EB7B297B304</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>78380B790F4E359C132D25F870302602</string>
-				<string>CDD670BAC7A5C3CDB0832C9343EB0586</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E917BB2160AF8EC4B371D98E96583ADB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85E364163845AD30451076C7238C85A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EAA9B58CE90D02C49A055D3D48E0C7E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B6C473D01EC0D605424BB0F1A9FA5E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EC06355F8DD0D5CC290DF6058151B155</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-RealmVideo.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC8D7C7F4B1150EE5A76A899623AE575</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD82F4E5C61BB0A9935964E472A50A51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EE5B93C6C565FBF1268737BFF19DEBD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B680DF30107B87DEA4B6D4E29D1F65A7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F1DAEC5F34DF28A7E8AA9B1FA1DC3C18</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0F584CC2613B76636C6A61510FB4CF76</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F34F039218BBB93B1894BAFECB5A7409</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Ji-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F8518BF57F1CD232BF7CC037689F3AE7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>xinclude.h</string>
-			<key>path</key>
-			<string>Source/Ji-libxml/xinclude.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC129F873C8046937630858D131339D1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8A1A2B93B4823172875B13036DA2F376</string>
-				<string>6A2C48780EEC0B82AF0B6A31CF8870FA</string>
-				<string>8330212B33FC1EB3515D7AE5CC17B39F</string>
-				<string>6E035FF1C78EF0C5F26B54BE683E122A</string>
-				<string>F34F039218BBB93B1894BAFECB5A7409</string>
-				<string>7189F6F7E01F93D2B6857CD0D0861953</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Ji</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD82F4E5C61BB0A9935964E472A50A51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>JiHelper.swift</string>
-			<key>path</key>
-			<string>Source/JiHelper.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEFC3F3BF4C527EFBE3798F44A76582D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3426657066760C3E173961368756C640</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0045D36A87ECD18EF31B00F21ECD1444 /* nanoftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDD15ED82A8D20203D865EC43FAD364 /* nanoftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039B40776E5336AD6D0E6D9D397B3BD2 /* xmlregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = 03737D9FDC1EB94147D3B34008C88744 /* xmlregexp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E161B012DF760EFC3B57287C7AF70A1 /* xmlautomata.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EB00CA2E48953775946631206AA905 /* xmlautomata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B6EC8822A45DAB965E85091D642AF1 /* xmlerror.h in Headers */ = {isa = PBXBuildFile; fileRef = D791893AD099AFA7750BAB36AF261E4A /* xmlerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11E93A1EA72A57BDAC41A787839498D0 /* xpathInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D0FDD6F46B3DE7E051403CFB63D305 /* xpathInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180C12259929E59DFCC3B28DB71F0904 /* schematron.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D188EA8B1729CEB39BD82BD5A641E2 /* schematron.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E31D933C3B204DD93B9B0A647D39A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1E54702CFD5EB7BF366C412F374D96BA /* Pods-RealmVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE /* Pods-RealmVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224603652248C1244F4E545B7DADECC9 /* relaxng.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B73FBA3C1331BE920760F5B4922D3B /* relaxng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237B94B5E203D1796927B994406F03A5 /* xmlstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF226E1F4B2230AD9F376A3DDC0A3F8 /* xmlstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D00E5529619E9730AEA0570EFDF3135 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D25B189C3B1ACF2A3C389EC452BECF4 /* encoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAE9B1263A8581B4A1041F9A9E79D4F /* xinclude.h in Headers */ = {isa = PBXBuildFile; fileRef = F8518BF57F1CD232BF7CC037689F3AE7 /* xinclude.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44825A56C9DAA2FC6CB21B8C2E60CA54 /* xmlexports.h in Headers */ = {isa = PBXBuildFile; fileRef = 990B7114C3BECAA7BB9A37B1EF502978 /* xmlexports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5303FC02F62F7AEF25E019D48CF3E2FB /* xmlmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E68AC3A3F72B9FB63FF122ED3E706573 /* xmlmemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		574B76A597FCB1495325EBA752512C85 /* parserInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE8A1EF2ED2BD3AB6092E62807BA4AC /* parserInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578B237ECBF428DF13753659E0DDE5A7 /* xmlunicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 079BA57E2F59E98B2DE96CC80DB0D14E /* xmlunicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57CD2095FEB53B0E49272E0FC72E2AA8 /* xmlversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F31B5F30EA50FEF437B9EF93281BA45 /* xmlversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5801C95597FD112BDC7A23AF13F7AC12 /* Ji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5902D97456F46DBC44BDF9BAA7F805EF /* catalog.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D31C7B982F7565127DD5C88544EB48 /* catalog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D587FEC5E688FB42A4A28D73DC63F2D /* xmlsave.h in Headers */ = {isa = PBXBuildFile; fileRef = 616DF624486EE1A9C3A2AF812209BCB1 /* xmlsave.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CCB01180E6C3C03C5E3F8467615E69 /* HTMLparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9360BE60B86BAF758E0A1FB387A50F1E /* HTMLparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC23C60E31045CE7E9AE717F24F4D2A /* xpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA356F9F6A72B750513F646CCB88352 /* xpointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		705E7F56904D2CFC5851C8A471FC3292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7596309E6A8F31006D97CC9E21126E15 /* xmlmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA40C28B18676A0C7D854A0DE266AB5 /* xmlmodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F239D6265A211592E0A9D41392DE22 /* threads.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3E5F1DD06896D732A50F2F7FAE9CFE /* threads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827CFED0C304D4FDBE940B92342E12E9 /* Ji-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835529C373DBDE2A86FA5619FDE687F6 /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 5334D5F6174249D312F86615C0B15BA0 /* dict.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		895CE642A368E529C17C59A3FA2E8730 /* JiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9078F99433753636A03548D567950568 /* nanohttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 014B7E761E65E2D320E17DC1912CE6B2 /* nanohttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91AA0953BB32D4B14E3A8F73F0B42A5C /* xlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 166AC4687460E8FBC7372C63ACCABE5A /* xlink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		990C4D1EA23ABBEB166E5EF15A94B141 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C96561DB8669E13674C39E37F1034F9 /* list.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E6011855668F15531BD76A2ABBCE187 /* debugXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 295EA5AD6B94824349E18FEDB10D107D /* debugXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01EC2A1716BD028B444BF36D998E912 /* xmlIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B781E42D21B678AB1873BAA5B2A175 /* xmlIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A55122137FEB60AACFD9C918140AC31B /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = B831AD90CECF5DA2347E71B481E8DF44 /* globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFFAD4A23BB4331E6AD0A7B80071510 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = C74EA216CCF31F0B1118FFCB5492E5C6 /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B103171E814AEA1E0F38516579926C84 /* uri.h in Headers */ = {isa = PBXBuildFile; fileRef = 431EEA90403F3063B6B1C4BE76979E83 /* uri.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B284A3ACBF673247B1162EE9862F26B8 /* xmlschemas.h in Headers */ = {isa = PBXBuildFile; fileRef = 966CC92E888AFA43F0FF415BFFA8CC03 /* xmlschemas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4106709CD46C30ADE8E017AF31BE2F8 /* xmlwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC91B05332B44CF62ADD33A5397BA68 /* xmlwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89EEEB847EC725CC604BC2642F0FC88 /* xpath.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FA78EDD9D13B12A112F4CBD1E43DF9 /* xpath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E14AECCBF6D2CAF467FB7A4F787EF7 /* SAX2.h in Headers */ = {isa = PBXBuildFile; fileRef = 57737C4EE146DABFF275D43F37942ED7 /* SAX2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7F3AC6CBB7015B8ED6473340FBD7A1 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5F12178DBF0C5DD0008E0EC5FDC9CC /* hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0B99626ACB82385D083F6390061EE9A /* Pods-RealmVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE5341122140BF66224A9FC5355FEF /* Pods-RealmVideo-dummy.m */; };
+		C5B8BA65BA4B286C42A7424BE2B4E72A /* JiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C95B93EDF3F86837F089B3DDDFE02193 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = D25DECF3EA02C5A4541179F978A078C2 /* pattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5CDE24E7F94D94C56D2AF09C5AA48B /* c14n.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FBCEA79F34847536396F9D1F3EC34D /* c14n.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0BB295A2FF203876F17B2790D96F75D /* HTMLtree.h in Headers */ = {isa = PBXBuildFile; fileRef = A38AE3B8E142CA64C35F660EEB5D4B21 /* HTMLtree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E4581E61C97E79686B59799D19283B /* valid.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2F53D8546E9AD0DC956ED182C44CCC /* valid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D83FD0E57655809EA7A1BC49AF5F3D8D /* xmlschemastypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EC44A09D4AE1358B9B8674B39F28E5 /* xmlschemastypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3850C4A57C621F582D20409B24CBB47 /* schemasInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A2B7201F243FCC98FC90515853F4E5 /* schemasInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8C5F762562F18C03793B174E1167C23 /* xmlreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8CE03ECF2CB6FC9DCF3AC95988CE1B /* xmlreader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E917BB2160AF8EC4B371D98E96583ADB /* chvalid.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E364163845AD30451076C7238C85A6 /* chvalid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA9B58CE90D02C49A055D3D48E0C7E7 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6C473D01EC0D605424BB0F1A9FA5E9 /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE5B93C6C565FBF1268737BFF19DEBD6 /* entities.h in Headers */ = {isa = PBXBuildFile; fileRef = B680DF30107B87DEA4B6D4E29D1F65A7 /* entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1DAEC5F34DF28A7E8AA9B1FA1DC3C18 /* SAX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F584CC2613B76636C6A61510FB4CF76 /* SAX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCA63610DECCB5E0219F85F6453D5142 /* Ji-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2D932A83B5A87FB87BAD4AF82DEDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F1DB440B42642636E376448A196E87;
+			remoteInfo = Ji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014B7E761E65E2D320E17DC1912CE6B2 /* nanohttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nanohttp.h; path = "Source/Ji-libxml/nanohttp.h"; sourceTree = "<group>"; };
+		0198AA483AAD14F2649919D1450FA169 /* Pods-RealmVideo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealmVideo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03737D9FDC1EB94147D3B34008C88744 /* xmlregexp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlregexp.h; path = "Source/Ji-libxml/xmlregexp.h"; sourceTree = "<group>"; };
+		079BA57E2F59E98B2DE96CC80DB0D14E /* xmlunicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlunicode.h; path = "Source/Ji-libxml/xmlunicode.h"; sourceTree = "<group>"; };
+		09AEAA47AB218CE728897D089159A1ED /* Pods-RealmVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		09B73FBA3C1331BE920760F5B4922D3B /* relaxng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relaxng.h; path = "Source/Ji-libxml/relaxng.h"; sourceTree = "<group>"; };
+		0E2F53D8546E9AD0DC956ED182C44CCC /* valid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = valid.h; path = "Source/Ji-libxml/valid.h"; sourceTree = "<group>"; };
+		0F584CC2613B76636C6A61510FB4CF76 /* SAX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX.h; path = "Source/Ji-libxml/SAX.h"; sourceTree = "<group>"; };
+		14D188EA8B1729CEB39BD82BD5A641E2 /* schematron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schematron.h; path = "Source/Ji-libxml/schematron.h"; sourceTree = "<group>"; };
+		155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiNode.swift; path = Source/JiNode.swift; sourceTree = "<group>"; };
+		15D0FDD6F46B3DE7E051403CFB63D305 /* xpathInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpathInternals.h; path = "Source/Ji-libxml/xpathInternals.h"; sourceTree = "<group>"; };
+		166AC4687460E8FBC7372C63ACCABE5A /* xlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xlink.h; path = "Source/Ji-libxml/xlink.h"; sourceTree = "<group>"; };
+		1A8CE03ECF2CB6FC9DCF3AC95988CE1B /* xmlreader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlreader.h; path = "Source/Ji-libxml/xmlreader.h"; sourceTree = "<group>"; };
+		1C96561DB8669E13674C39E37F1034F9 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = "Source/Ji-libxml/list.h"; sourceTree = "<group>"; };
+		295EA5AD6B94824349E18FEDB10D107D /* debugXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = debugXML.h; path = "Source/Ji-libxml/debugXML.h"; sourceTree = "<group>"; };
+		30B781E42D21B678AB1873BAA5B2A175 /* xmlIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlIO.h; path = "Source/Ji-libxml/xmlIO.h"; sourceTree = "<group>"; };
+		33FBCEA79F34847536396F9D1F3EC34D /* c14n.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c14n.h; path = "Source/Ji-libxml/c14n.h"; sourceTree = "<group>"; };
+		3DDD15ED82A8D20203D865EC43FAD364 /* nanoftp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nanoftp.h; path = "Source/Ji-libxml/nanoftp.h"; sourceTree = "<group>"; };
+		3EF226E1F4B2230AD9F376A3DDC0A3F8 /* xmlstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlstring.h; path = "Source/Ji-libxml/xmlstring.h"; sourceTree = "<group>"; };
+		431EEA90403F3063B6B1C4BE76979E83 /* uri.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uri.h; path = "Source/Ji-libxml/uri.h"; sourceTree = "<group>"; };
+		4C01D1E5A8827752C290AEC2D69C5997 /* Ji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5334D5F6174249D312F86615C0B15BA0 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = "Source/Ji-libxml/dict.h"; sourceTree = "<group>"; };
+		57737C4EE146DABFF275D43F37942ED7 /* SAX2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX2.h; path = "Source/Ji-libxml/SAX2.h"; sourceTree = "<group>"; };
+		5D25B189C3B1ACF2A3C389EC452BECF4 /* encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encoding.h; path = "Source/Ji-libxml/encoding.h"; sourceTree = "<group>"; };
+		5E39D4022DB35B883B73505E603D50FE /* Pods-RealmVideo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmVideo-resources.sh"; sourceTree = "<group>"; };
+		616DF624486EE1A9C3A2AF812209BCB1 /* xmlsave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlsave.h; path = "Source/Ji-libxml/xmlsave.h"; sourceTree = "<group>"; };
+		64EC44A09D4AE1358B9B8674B39F28E5 /* xmlschemastypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlschemastypes.h; path = "Source/Ji-libxml/xmlschemastypes.h"; sourceTree = "<group>"; };
+		6A269B0175FDE8103FC8025C25276A79 /* Pods_RealmVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2C48780EEC0B82AF0B6A31CF8870FA /* Ji.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Ji.modulemap; sourceTree = "<group>"; };
+		6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ji-dummy.m"; sourceTree = "<group>"; };
+		7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ji-umbrella.h"; sourceTree = "<group>"; };
+		7F31B5F30EA50FEF437B9EF93281BA45 /* xmlversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlversion.h; path = "Source/Ji-libxml/xmlversion.h"; sourceTree = "<group>"; };
+		80D31C7B982F7565127DD5C88544EB48 /* catalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = catalog.h; path = "Source/Ji-libxml/catalog.h"; sourceTree = "<group>"; };
+		8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ji.xcconfig; sourceTree = "<group>"; };
+		851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ji.swift; path = Source/Ji.swift; sourceTree = "<group>"; };
+		85E364163845AD30451076C7238C85A6 /* chvalid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chvalid.h; path = "Source/Ji-libxml/chvalid.h"; sourceTree = "<group>"; };
+		8A1A2B93B4823172875B13036DA2F376 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC91B05332B44CF62ADD33A5397BA68 /* xmlwriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlwriter.h; path = "Source/Ji-libxml/xmlwriter.h"; sourceTree = "<group>"; };
+		8C309BDD27B0F40ED7C34AA1354CFF99 /* Pods-RealmVideo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmVideo-frameworks.sh"; sourceTree = "<group>"; };
+		9360BE60B86BAF758E0A1FB387A50F1E /* HTMLparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLparser.h; path = "Source/Ji-libxml/HTMLparser.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966CC92E888AFA43F0FF415BFFA8CC03 /* xmlschemas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlschemas.h; path = "Source/Ji-libxml/xmlschemas.h"; sourceTree = "<group>"; };
+		97FA78EDD9D13B12A112F4CBD1E43DF9 /* xpath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpath.h; path = "Source/Ji-libxml/xpath.h"; sourceTree = "<group>"; };
+		97FE5341122140BF66224A9FC5355FEF /* Pods-RealmVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealmVideo-dummy.m"; sourceTree = "<group>"; };
+		98EB00CA2E48953775946631206AA905 /* xmlautomata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlautomata.h; path = "Source/Ji-libxml/xmlautomata.h"; sourceTree = "<group>"; };
+		990B7114C3BECAA7BB9A37B1EF502978 /* xmlexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlexports.h; path = "Source/Ji-libxml/xmlexports.h"; sourceTree = "<group>"; };
+		9B6C473D01EC0D605424BB0F1A9FA5E9 /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = "Source/Ji-libxml/parser.h"; sourceTree = "<group>"; };
+		9F677537C695F4BD329DD574786665C9 /* Pods-RealmVideo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealmVideo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A38AE3B8E142CA64C35F660EEB5D4B21 /* HTMLtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLtree.h; path = "Source/Ji-libxml/HTMLtree.h"; sourceTree = "<group>"; };
+		A4A2B7201F243FCC98FC90515853F4E5 /* schemasInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schemasInternals.h; path = "Source/Ji-libxml/schemasInternals.h"; sourceTree = "<group>"; };
+		A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE /* Pods-RealmVideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealmVideo-umbrella.h"; sourceTree = "<group>"; };
+		AEE8A1EF2ED2BD3AB6092E62807BA4AC /* parserInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parserInternals.h; path = "Source/Ji-libxml/parserInternals.h"; sourceTree = "<group>"; };
+		B680DF30107B87DEA4B6D4E29D1F65A7 /* entities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entities.h; path = "Source/Ji-libxml/entities.h"; sourceTree = "<group>"; };
+		B831AD90CECF5DA2347E71B481E8DF44 /* globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globals.h; path = "Source/Ji-libxml/globals.h"; sourceTree = "<group>"; };
+		BD3E5F1DD06896D732A50F2F7FAE9CFE /* threads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threads.h; path = "Source/Ji-libxml/threads.h"; sourceTree = "<group>"; };
+		BF5F12178DBF0C5DD0008E0EC5FDC9CC /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = "Source/Ji-libxml/hash.h"; sourceTree = "<group>"; };
+		C1BB97FDF326D07DC972F719EE97231E /* Pods-RealmVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmVideo.release.xcconfig"; sourceTree = "<group>"; };
+		C74EA216CCF31F0B1118FFCB5492E5C6 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = "Source/Ji-libxml/tree.h"; sourceTree = "<group>"; };
+		CAA40C28B18676A0C7D854A0DE266AB5 /* xmlmodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmodule.h; path = "Source/Ji-libxml/xmlmodule.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D25DECF3EA02C5A4541179F978A078C2 /* pattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pattern.h; path = "Source/Ji-libxml/pattern.h"; sourceTree = "<group>"; };
+		D791893AD099AFA7750BAB36AF261E4A /* xmlerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlerror.h; path = "Source/Ji-libxml/xmlerror.h"; sourceTree = "<group>"; };
+		DEA356F9F6A72B750513F646CCB88352 /* xpointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpointer.h; path = "Source/Ji-libxml/xpointer.h"; sourceTree = "<group>"; };
+		E2808AFB192C7A8B085E06527803AA37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68AC3A3F72B9FB63FF122ED3E706573 /* xmlmemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmemory.h; path = "Source/Ji-libxml/xmlmemory.h"; sourceTree = "<group>"; };
+		EC06355F8DD0D5CC290DF6058151B155 /* Pods-RealmVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealmVideo.modulemap"; sourceTree = "<group>"; };
+		F34F039218BBB93B1894BAFECB5A7409 /* Ji-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ji-prefix.pch"; sourceTree = "<group>"; };
+		F8518BF57F1CD232BF7CC037689F3AE7 /* xinclude.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xinclude.h; path = "Source/Ji-libxml/xinclude.h"; sourceTree = "<group>"; };
+		FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiHelper.swift; path = Source/JiHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2515368F35198FA42155B05F2FD04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E31D933C3B204DD93B9B0A647D39A27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C219642E389B066EB1B6F38F25EC07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705E7F56904D2CFC5851C8A471FC3292 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE72717F59D3385C825BEBBABA0C935 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A1EBD05C3405E0212CC06B94F605FDE /* Pods-RealmVideo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2BA87992B3B39FC20A40A9759A86C324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C01D1E5A8827752C290AEC2D69C5997 /* Ji.framework */,
+				6A269B0175FDE8103FC8025C25276A79 /* Pods_RealmVideo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		50DD815E995A0B0379F4C60A9146FE10 /* Ji-libxml */ = {
+			isa = PBXGroup;
+			children = (
+				33FBCEA79F34847536396F9D1F3EC34D /* c14n.h */,
+				80D31C7B982F7565127DD5C88544EB48 /* catalog.h */,
+				85E364163845AD30451076C7238C85A6 /* chvalid.h */,
+				295EA5AD6B94824349E18FEDB10D107D /* debugXML.h */,
+				5334D5F6174249D312F86615C0B15BA0 /* dict.h */,
+				5D25B189C3B1ACF2A3C389EC452BECF4 /* encoding.h */,
+				B680DF30107B87DEA4B6D4E29D1F65A7 /* entities.h */,
+				B831AD90CECF5DA2347E71B481E8DF44 /* globals.h */,
+				BF5F12178DBF0C5DD0008E0EC5FDC9CC /* hash.h */,
+				9360BE60B86BAF758E0A1FB387A50F1E /* HTMLparser.h */,
+				A38AE3B8E142CA64C35F660EEB5D4B21 /* HTMLtree.h */,
+				1C96561DB8669E13674C39E37F1034F9 /* list.h */,
+				3DDD15ED82A8D20203D865EC43FAD364 /* nanoftp.h */,
+				014B7E761E65E2D320E17DC1912CE6B2 /* nanohttp.h */,
+				9B6C473D01EC0D605424BB0F1A9FA5E9 /* parser.h */,
+				AEE8A1EF2ED2BD3AB6092E62807BA4AC /* parserInternals.h */,
+				D25DECF3EA02C5A4541179F978A078C2 /* pattern.h */,
+				09B73FBA3C1331BE920760F5B4922D3B /* relaxng.h */,
+				0F584CC2613B76636C6A61510FB4CF76 /* SAX.h */,
+				57737C4EE146DABFF275D43F37942ED7 /* SAX2.h */,
+				A4A2B7201F243FCC98FC90515853F4E5 /* schemasInternals.h */,
+				14D188EA8B1729CEB39BD82BD5A641E2 /* schematron.h */,
+				BD3E5F1DD06896D732A50F2F7FAE9CFE /* threads.h */,
+				C74EA216CCF31F0B1118FFCB5492E5C6 /* tree.h */,
+				431EEA90403F3063B6B1C4BE76979E83 /* uri.h */,
+				0E2F53D8546E9AD0DC956ED182C44CCC /* valid.h */,
+				F8518BF57F1CD232BF7CC037689F3AE7 /* xinclude.h */,
+				166AC4687460E8FBC7372C63ACCABE5A /* xlink.h */,
+				98EB00CA2E48953775946631206AA905 /* xmlautomata.h */,
+				D791893AD099AFA7750BAB36AF261E4A /* xmlerror.h */,
+				990B7114C3BECAA7BB9A37B1EF502978 /* xmlexports.h */,
+				30B781E42D21B678AB1873BAA5B2A175 /* xmlIO.h */,
+				E68AC3A3F72B9FB63FF122ED3E706573 /* xmlmemory.h */,
+				CAA40C28B18676A0C7D854A0DE266AB5 /* xmlmodule.h */,
+				1A8CE03ECF2CB6FC9DCF3AC95988CE1B /* xmlreader.h */,
+				03737D9FDC1EB94147D3B34008C88744 /* xmlregexp.h */,
+				616DF624486EE1A9C3A2AF812209BCB1 /* xmlsave.h */,
+				966CC92E888AFA43F0FF415BFFA8CC03 /* xmlschemas.h */,
+				64EC44A09D4AE1358B9B8674B39F28E5 /* xmlschemastypes.h */,
+				3EF226E1F4B2230AD9F376A3DDC0A3F8 /* xmlstring.h */,
+				079BA57E2F59E98B2DE96CC80DB0D14E /* xmlunicode.h */,
+				7F31B5F30EA50FEF437B9EF93281BA45 /* xmlversion.h */,
+				8AC91B05332B44CF62ADD33A5397BA68 /* xmlwriter.h */,
+				97FA78EDD9D13B12A112F4CBD1E43DF9 /* xpath.h */,
+				15D0FDD6F46B3DE7E051403CFB63D305 /* xpathInternals.h */,
+				DEA356F9F6A72B750513F646CCB88352 /* xpointer.h */,
+			);
+			name = "Ji-libxml";
+			sourceTree = "<group>";
+		};
+		50FCA6DF46B52264016842429D536A06 /* Ji */ = {
+			isa = PBXGroup;
+			children = (
+				851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */,
+				FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */,
+				155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */,
+			);
+			name = Ji;
+			sourceTree = "<group>";
+		};
+		6A1EBD05C3405E0212CC06B94F605FDE /* Pods-RealmVideo */ = {
+			isa = PBXGroup;
+			children = (
+				E2808AFB192C7A8B085E06527803AA37 /* Info.plist */,
+				EC06355F8DD0D5CC290DF6058151B155 /* Pods-RealmVideo.modulemap */,
+				0198AA483AAD14F2649919D1450FA169 /* Pods-RealmVideo-acknowledgements.markdown */,
+				9F677537C695F4BD329DD574786665C9 /* Pods-RealmVideo-acknowledgements.plist */,
+				97FE5341122140BF66224A9FC5355FEF /* Pods-RealmVideo-dummy.m */,
+				8C309BDD27B0F40ED7C34AA1354CFF99 /* Pods-RealmVideo-frameworks.sh */,
+				5E39D4022DB35B883B73505E603D50FE /* Pods-RealmVideo-resources.sh */,
+				A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE /* Pods-RealmVideo-umbrella.h */,
+				09AEAA47AB218CE728897D089159A1ED /* Pods-RealmVideo.debug.xcconfig */,
+				C1BB97FDF326D07DC972F719EE97231E /* Pods-RealmVideo.release.xcconfig */,
+			);
+			name = "Pods-RealmVideo";
+			path = "Target Support Files/Pods-RealmVideo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7EEC4DFDB9898E51217179C48DFA6ED7 /* Pods */,
+				2BA87992B3B39FC20A40A9759A86C324 /* Products */,
+				0DE72717F59D3385C825BEBBABA0C935 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EEC4DFDB9898E51217179C48DFA6ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B094E57444C497562FA22BD761A335F4 /* Ji */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B094E57444C497562FA22BD761A335F4 /* Ji */ = {
+			isa = PBXGroup;
+			children = (
+				50FCA6DF46B52264016842429D536A06 /* Ji */,
+				50DD815E995A0B0379F4C60A9146FE10 /* Ji-libxml */,
+				FC129F873C8046937630858D131339D1 /* Support Files */,
+			);
+			path = Ji;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC129F873C8046937630858D131339D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A2B93B4823172875B13036DA2F376 /* Info.plist */,
+				6A2C48780EEC0B82AF0B6A31CF8870FA /* Ji.modulemap */,
+				8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */,
+				6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */,
+				F34F039218BBB93B1894BAFECB5A7409 /* Ji-prefix.pch */,
+				7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ji";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3376DD68677EF0FDF0DA5E9217916815 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5CDE24E7F94D94C56D2AF09C5AA48B /* c14n.h in Headers */,
+				5902D97456F46DBC44BDF9BAA7F805EF /* catalog.h in Headers */,
+				E917BB2160AF8EC4B371D98E96583ADB /* chvalid.h in Headers */,
+				9E6011855668F15531BD76A2ABBCE187 /* debugXML.h in Headers */,
+				835529C373DBDE2A86FA5619FDE687F6 /* dict.h in Headers */,
+				2D00E5529619E9730AEA0570EFDF3135 /* encoding.h in Headers */,
+				EE5B93C6C565FBF1268737BFF19DEBD6 /* entities.h in Headers */,
+				A55122137FEB60AACFD9C918140AC31B /* globals.h in Headers */,
+				BB7F3AC6CBB7015B8ED6473340FBD7A1 /* hash.h in Headers */,
+				60CCB01180E6C3C03C5E3F8467615E69 /* HTMLparser.h in Headers */,
+				D0BB295A2FF203876F17B2790D96F75D /* HTMLtree.h in Headers */,
+				827CFED0C304D4FDBE940B92342E12E9 /* Ji-umbrella.h in Headers */,
+				990C4D1EA23ABBEB166E5EF15A94B141 /* list.h in Headers */,
+				0045D36A87ECD18EF31B00F21ECD1444 /* nanoftp.h in Headers */,
+				9078F99433753636A03548D567950568 /* nanohttp.h in Headers */,
+				EAA9B58CE90D02C49A055D3D48E0C7E7 /* parser.h in Headers */,
+				574B76A597FCB1495325EBA752512C85 /* parserInternals.h in Headers */,
+				C95B93EDF3F86837F089B3DDDFE02193 /* pattern.h in Headers */,
+				224603652248C1244F4E545B7DADECC9 /* relaxng.h in Headers */,
+				F1DAEC5F34DF28A7E8AA9B1FA1DC3C18 /* SAX.h in Headers */,
+				B9E14AECCBF6D2CAF467FB7A4F787EF7 /* SAX2.h in Headers */,
+				E3850C4A57C621F582D20409B24CBB47 /* schemasInternals.h in Headers */,
+				180C12259929E59DFCC3B28DB71F0904 /* schematron.h in Headers */,
+				76F239D6265A211592E0A9D41392DE22 /* threads.h in Headers */,
+				AAFFAD4A23BB4331E6AD0A7B80071510 /* tree.h in Headers */,
+				B103171E814AEA1E0F38516579926C84 /* uri.h in Headers */,
+				D6E4581E61C97E79686B59799D19283B /* valid.h in Headers */,
+				3AAE9B1263A8581B4A1041F9A9E79D4F /* xinclude.h in Headers */,
+				91AA0953BB32D4B14E3A8F73F0B42A5C /* xlink.h in Headers */,
+				0E161B012DF760EFC3B57287C7AF70A1 /* xmlautomata.h in Headers */,
+				10B6EC8822A45DAB965E85091D642AF1 /* xmlerror.h in Headers */,
+				44825A56C9DAA2FC6CB21B8C2E60CA54 /* xmlexports.h in Headers */,
+				A01EC2A1716BD028B444BF36D998E912 /* xmlIO.h in Headers */,
+				5303FC02F62F7AEF25E019D48CF3E2FB /* xmlmemory.h in Headers */,
+				7596309E6A8F31006D97CC9E21126E15 /* xmlmodule.h in Headers */,
+				E8C5F762562F18C03793B174E1167C23 /* xmlreader.h in Headers */,
+				039B40776E5336AD6D0E6D9D397B3BD2 /* xmlregexp.h in Headers */,
+				5D587FEC5E688FB42A4A28D73DC63F2D /* xmlsave.h in Headers */,
+				B284A3ACBF673247B1162EE9862F26B8 /* xmlschemas.h in Headers */,
+				D83FD0E57655809EA7A1BC49AF5F3D8D /* xmlschemastypes.h in Headers */,
+				237B94B5E203D1796927B994406F03A5 /* xmlstring.h in Headers */,
+				578B237ECBF428DF13753659E0DDE5A7 /* xmlunicode.h in Headers */,
+				57CD2095FEB53B0E49272E0FC72E2AA8 /* xmlversion.h in Headers */,
+				B4106709CD46C30ADE8E017AF31BE2F8 /* xmlwriter.h in Headers */,
+				B89EEEB847EC725CC604BC2642F0FC88 /* xpath.h in Headers */,
+				11E93A1EA72A57BDAC41A787839498D0 /* xpathInternals.h in Headers */,
+				6FC23C60E31045CE7E9AE717F24F4D2A /* xpointer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7E44D0D21D1E10403C746567A37FDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E54702CFD5EB7BF366C412F374D96BA /* Pods-RealmVideo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FE099F74B9E89D062E021704CFF3125 /* Pods-RealmVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EC1BF13098E416E386C39B0B299F94 /* Build configuration list for PBXNativeTarget "Pods-RealmVideo" */;
+			buildPhases = (
+				D94AD2F88895AA99BF829902A655E985 /* Sources */,
+				8E2515368F35198FA42155B05F2FD04E /* Frameworks */,
+				7F7E44D0D21D1E10403C746567A37FDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435BC3891B235EE61AC1C802B18E17DB /* PBXTargetDependency */,
+			);
+			name = "Pods-RealmVideo";
+			productName = "Pods-RealmVideo";
+			productReference = 6A269B0175FDE8103FC8025C25276A79 /* Pods_RealmVideo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4F1DB440B42642636E376448A196E87 /* Ji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167628074131DA96D4542E0F385CFDB2 /* Build configuration list for PBXNativeTarget "Ji" */;
+			buildPhases = (
+				64E99971FDAB7CD9E1E259BD313FF27D /* Sources */,
+				9C219642E389B066EB1B6F38F25EC07D /* Frameworks */,
+				3376DD68677EF0FDF0DA5E9217916815 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ji;
+			productName = Ji;
+			productReference = 4C01D1E5A8827752C290AEC2D69C5997 /* Ji.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2BA87992B3B39FC20A40A9759A86C324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F1DB440B42642636E376448A196E87 /* Ji */,
+				6FE099F74B9E89D062E021704CFF3125 /* Pods-RealmVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E99971FDAB7CD9E1E259BD313FF27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA63610DECCB5E0219F85F6453D5142 /* Ji-dummy.m in Sources */,
+				5801C95597FD112BDC7A23AF13F7AC12 /* Ji.swift in Sources */,
+				C5B8BA65BA4B286C42A7424BE2B4E72A /* JiHelper.swift in Sources */,
+				895CE642A368E529C17C59A3FA2E8730 /* JiNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94AD2F88895AA99BF829902A655E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B99626ACB82385D083F6390061EE9A /* Pods-RealmVideo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435BC3891B235EE61AC1C802B18E17DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ji;
+			target = C4F1DB440B42642636E376448A196E87 /* Ji */;
+			targetProxy = BB2D932A83B5A87FB87BAD4AF82DEDDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BBD114B84B8B1605AEF27C879E58754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AEAA47AB218CE728897D089159A1ED /* Pods-RealmVideo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmVideo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmVideo/Pods-RealmVideo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmVideo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FFB106B801C410A11EBD683153BA75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BB97FDF326D07DC972F719EE97231E /* Pods-RealmVideo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmVideo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmVideo/Pods-RealmVideo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmVideo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38E6FB0693EDB9F3C7CDDDD819178D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ji/Ji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ji/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ji/Ji.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Ji;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D12C5EBD90928994FE107B44367C7E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ji/Ji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ji/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ji/Ji.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ji;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167628074131DA96D4542E0F385CFDB2 /* Build configuration list for PBXNativeTarget "Ji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E6FB0693EDB9F3C7CDDDD819178D95 /* Debug */,
+				D12C5EBD90928994FE107B44367C7E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16EC1BF13098E416E386C39B0B299F94 /* Build configuration list for PBXNativeTarget "Pods-RealmVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BBD114B84B8B1605AEF27C879E58754 /* Debug */,
+				2FFB106B801C410A11EBD683153BA75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
