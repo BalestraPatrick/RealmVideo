@@ -18,8 +18,8 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
     
     var positionOfSlides: CGFloat?
     var positionOfVideo: CGFloat?
-    var token: dispatch_once_t = 0
     var videoURL: NSURL?
+    var token: dispatch_once_t = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,11 +66,7 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         // Take screenshot of the current slide and show it in the floating view
         if let _ = floatingSlides.superview, let position = positionOfSlides {
             webView.scrollView.setContentOffset(CGPoint(x: 0, y: position), animated: false)
-            UIGraphicsBeginImageContextWithOptions(self.view.frame.size, false, 0);
-            self.view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
-            let image: UIImage = UIGraphicsGetImageFromCurrentImageContext();
-            slideImageView.image = image
-            UIGraphicsEndImageContext()
+            slideImageView.image = view.takeScreenshot()
         }
         
         // Hack to see if the MPMovieViewController is dimissed and we should focus again on the video
