@@ -21,9 +21,20 @@
 		AE73490A1CE4B187007416A8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7349091CE4B187007416A8 /* Constants.swift */; };
 		AE73490C1CE4B645007416A8 /* FloatingSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73490B1CE4B645007416A8 /* FloatingSlides.swift */; };
 		AE73490E1CE4BDE7007416A8 /* ViewScreenshotter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73490D1CE4BDE7007416A8 /* ViewScreenshotter.swift */; };
+		AE7349161CE4CFFE007416A8 /* LinkValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7349151CE4CFFE007416A8 /* LinkValidatorTests.swift */; };
 		AE91EF121CE1DA9400EDBB3C /* LinkValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91EF111CE1DA9400EDBB3C /* LinkValidator.swift */; };
 		AEB1B9FB1CDC02360037D310 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1B9FA1CDC02360037D310 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE7349181CE4CFFE007416A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5248541CDBB05B003B7454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE52485B1CDBB05B003B7454;
+			remoteInfo = RealmVideo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		135089E89E18A4F860ECA9D3 /* Pods_RealmVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +54,9 @@
 		AE7349091CE4B187007416A8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AE73490B1CE4B645007416A8 /* FloatingSlides.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingSlides.swift; sourceTree = "<group>"; };
 		AE73490D1CE4BDE7007416A8 /* ViewScreenshotter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewScreenshotter.swift; sourceTree = "<group>"; };
+		AE7349131CE4CFFE007416A8 /* RealmVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7349151CE4CFFE007416A8 /* LinkValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkValidatorTests.swift; sourceTree = "<group>"; };
+		AE7349171CE4CFFE007416A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE91EF111CE1DA9400EDBB3C /* LinkValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkValidator.swift; sourceTree = "<group>"; };
 		AEB1B9FA1CDC02360037D310 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B422BF8E544C74BA5549BBBE /* Pods-RealmVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmVideo/Pods-RealmVideo.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +68,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A61B5BD38A3839D04C1DA8 /* Pods_RealmVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7349101CE4CFFE007416A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				AE52485E1CDBB05B003B7454 /* RealmVideo */,
+				AE7349141CE4CFFE007416A8 /* RealmVideoTests */,
 				AE52485D1CDBB05B003B7454 /* Products */,
 				94CED0699F8F0ED9A4E9C553 /* Pods */,
 				713D2515A4BB537798578CBA /* Frameworks */,
@@ -137,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				AE52485C1CDBB05B003B7454 /* RealmVideo.app */,
+				AE7349131CE4CFFE007416A8 /* RealmVideoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +179,15 @@
 				AE52486B1CDBB05B003B7454 /* Info.plist */,
 			);
 			path = RealmVideo;
+			sourceTree = "<group>";
+		};
+		AE7349141CE4CFFE007416A8 /* RealmVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7349151CE4CFFE007416A8 /* LinkValidatorTests.swift */,
+				AE7349171CE4CFFE007416A8 /* Info.plist */,
+			);
+			path = RealmVideoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +213,24 @@
 			productReference = AE52485C1CDBB05B003B7454 /* RealmVideo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AE7349121CE4CFFE007416A8 /* RealmVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE73491A1CE4CFFE007416A8 /* Build configuration list for PBXNativeTarget "RealmVideoTests" */;
+			buildPhases = (
+				AE73490F1CE4CFFE007416A8 /* Sources */,
+				AE7349101CE4CFFE007416A8 /* Frameworks */,
+				AE7349111CE4CFFE007416A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7349191CE4CFFE007416A8 /* PBXTargetDependency */,
+			);
+			name = RealmVideoTests;
+			productName = RealmVideoTests;
+			productReference = AE7349131CE4CFFE007416A8 /* RealmVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,6 +243,10 @@
 				TargetAttributes = {
 					AE52485B1CDBB05B003B7454 = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					AE7349121CE4CFFE007416A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AE52485B1CDBB05B003B7454;
 					};
 				};
 			};
@@ -210,6 +264,7 @@
 			projectRoot = "";
 			targets = (
 				AE52485B1CDBB05B003B7454 /* RealmVideo */,
+				AE7349121CE4CFFE007416A8 /* RealmVideoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,6 +277,13 @@
 				AE52486A1CDBB05B003B7454 /* LaunchScreen.storyboard in Resources */,
 				AE5248671CDBB05B003B7454 /* Assets.xcassets in Resources */,
 				AE5248651CDBB05B003B7454 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE7349111CE4CFFE007416A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +357,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE73490F1CE4CFFE007416A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7349161CE4CFFE007416A8 /* LinkValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE7349191CE4CFFE007416A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE52485B1CDBB05B003B7454 /* RealmVideo */;
+			targetProxy = AE7349181CE4CFFE007416A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AE5248631CDBB05B003B7454 /* Main.storyboard */ = {
@@ -426,6 +504,30 @@
 			};
 			name = Release;
 		};
+		AE73491B1CE4CFFE007416A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealmVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickbalestra.RealmVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmVideo.app/RealmVideo";
+			};
+			name = Debug;
+		};
+		AE73491C1CE4CFFE007416A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealmVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickbalestra.RealmVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmVideo.app/RealmVideo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,6 +548,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		AE73491A1CE4CFFE007416A8 /* Build configuration list for PBXNativeTarget "RealmVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE73491B1CE4CFFE007416A8 /* Debug */,
+				AE73491C1CE4CFFE007416A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

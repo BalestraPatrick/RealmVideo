@@ -24,7 +24,6 @@ extension SlidePosition {
     ///
     /// - returns: The point of the slides.
     func snapTo(slidesSize: CGRect) -> CGPoint {
-        
         var nearestPoint = CGPoint()
         
         switch self {
