@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0045D36A87ECD18EF31B00F21ECD1444 /* nanoftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDD15ED82A8D20203D865EC43FAD364 /* nanoftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		033D989B1E9978C4A8FA63D47CE2ADAF /* Pods-RealmVideoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9349D4DA5933D2AFAA2AB84EFAD0FA /* Pods-RealmVideoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		039B40776E5336AD6D0E6D9D397B3BD2 /* xmlregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = 03737D9FDC1EB94147D3B34008C88744 /* xmlregexp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E161B012DF760EFC3B57287C7AF70A1 /* xmlautomata.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EB00CA2E48953775946631206AA905 /* xmlautomata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10B6EC8822A45DAB965E85091D642AF1 /* xmlerror.h in Headers */ = {isa = PBXBuildFile; fileRef = D791893AD099AFA7750BAB36AF261E4A /* xmlerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11E93A1EA72A57BDAC41A787839498D0 /* xpathInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D0FDD6F46B3DE7E051403CFB63D305 /* xpathInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14C889BCE692A0ECA98B1DEF0814824D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		180C12259929E59DFCC3B28DB71F0904 /* schematron.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D188EA8B1729CEB39BD82BD5A641E2 /* schematron.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E31D933C3B204DD93B9B0A647D39A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		1E54702CFD5EB7BF366C412F374D96BA /* Pods-RealmVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE /* Pods-RealmVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E54702CFD5EB7BF366C412F374D96BA /* Pods-RealmVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A762F4223FFF4682E7416EC025345CA /* Pods-RealmVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		224603652248C1244F4E545B7DADECC9 /* relaxng.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B73FBA3C1331BE920760F5B4922D3B /* relaxng.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		237B94B5E203D1796927B994406F03A5 /* xmlstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF226E1F4B2230AD9F376A3DDC0A3F8 /* xmlstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D00E5529619E9730AEA0570EFDF3135 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D25B189C3B1ACF2A3C389EC452BECF4 /* encoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,13 +44,14 @@
 		A01EC2A1716BD028B444BF36D998E912 /* xmlIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B781E42D21B678AB1873BAA5B2A175 /* xmlIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A55122137FEB60AACFD9C918140AC31B /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = B831AD90CECF5DA2347E71B481E8DF44 /* globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAFFAD4A23BB4331E6AD0A7B80071510 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = C74EA216CCF31F0B1118FFCB5492E5C6 /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE5D45379802B1EA97825C14900E965E /* Pods-RealmVideoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 117D6627DC7B43E799C737DFBC88D3C2 /* Pods-RealmVideoTests-dummy.m */; };
 		B103171E814AEA1E0F38516579926C84 /* uri.h in Headers */ = {isa = PBXBuildFile; fileRef = 431EEA90403F3063B6B1C4BE76979E83 /* uri.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B284A3ACBF673247B1162EE9862F26B8 /* xmlschemas.h in Headers */ = {isa = PBXBuildFile; fileRef = 966CC92E888AFA43F0FF415BFFA8CC03 /* xmlschemas.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4106709CD46C30ADE8E017AF31BE2F8 /* xmlwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC91B05332B44CF62ADD33A5397BA68 /* xmlwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B89EEEB847EC725CC604BC2642F0FC88 /* xpath.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FA78EDD9D13B12A112F4CBD1E43DF9 /* xpath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9E14AECCBF6D2CAF467FB7A4F787EF7 /* SAX2.h in Headers */ = {isa = PBXBuildFile; fileRef = 57737C4EE146DABFF275D43F37942ED7 /* SAX2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB7F3AC6CBB7015B8ED6473340FBD7A1 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5F12178DBF0C5DD0008E0EC5FDC9CC /* hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0B99626ACB82385D083F6390061EE9A /* Pods-RealmVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE5341122140BF66224A9FC5355FEF /* Pods-RealmVideo-dummy.m */; };
+		C0B99626ACB82385D083F6390061EE9A /* Pods-RealmVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D99B3618245DC25879162C5419133A65 /* Pods-RealmVideo-dummy.m */; };
 		C5B8BA65BA4B286C42A7424BE2B4E72A /* JiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C95B93EDF3F86837F089B3DDDFE02193 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = D25DECF3EA02C5A4541179F978A078C2 /* pattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD5CDE24E7F94D94C56D2AF09C5AA48B /* c14n.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FBCEA79F34847536396F9D1F3EC34D /* c14n.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,13 +79,14 @@
 
 /* Begin PBXFileReference section */
 		014B7E761E65E2D320E17DC1912CE6B2 /* nanohttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nanohttp.h; path = "Source/Ji-libxml/nanohttp.h"; sourceTree = "<group>"; };
-		0198AA483AAD14F2649919D1450FA169 /* Pods-RealmVideo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealmVideo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		03737D9FDC1EB94147D3B34008C88744 /* xmlregexp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlregexp.h; path = "Source/Ji-libxml/xmlregexp.h"; sourceTree = "<group>"; };
 		079BA57E2F59E98B2DE96CC80DB0D14E /* xmlunicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlunicode.h; path = "Source/Ji-libxml/xmlunicode.h"; sourceTree = "<group>"; };
-		09AEAA47AB218CE728897D089159A1ED /* Pods-RealmVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmVideo.debug.xcconfig"; sourceTree = "<group>"; };
 		09B73FBA3C1331BE920760F5B4922D3B /* relaxng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relaxng.h; path = "Source/Ji-libxml/relaxng.h"; sourceTree = "<group>"; };
+		0AC5AD1689E76387D52333466F5F4E9D /* Pods-RealmVideo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmVideo-frameworks.sh"; sourceTree = "<group>"; };
 		0E2F53D8546E9AD0DC956ED182C44CCC /* valid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = valid.h; path = "Source/Ji-libxml/valid.h"; sourceTree = "<group>"; };
 		0F584CC2613B76636C6A61510FB4CF76 /* SAX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX.h; path = "Source/Ji-libxml/SAX.h"; sourceTree = "<group>"; };
+		1152C56A74C53665DC9455FE17F3153B /* Pods-RealmVideoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmVideoTests-resources.sh"; sourceTree = "<group>"; };
+		117D6627DC7B43E799C737DFBC88D3C2 /* Pods-RealmVideoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealmVideoTests-dummy.m"; sourceTree = "<group>"; };
 		14D188EA8B1729CEB39BD82BD5A641E2 /* schematron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schematron.h; path = "Source/Ji-libxml/schematron.h"; sourceTree = "<group>"; };
 		155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiNode.swift; path = Source/JiNode.swift; sourceTree = "<group>"; };
 		15D0FDD6F46B3DE7E051403CFB63D305 /* xpathInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpathInternals.h; path = "Source/Ji-libxml/xpathInternals.h"; sourceTree = "<group>"; };
@@ -90,58 +94,68 @@
 		1A8CE03ECF2CB6FC9DCF3AC95988CE1B /* xmlreader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlreader.h; path = "Source/Ji-libxml/xmlreader.h"; sourceTree = "<group>"; };
 		1C96561DB8669E13674C39E37F1034F9 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = "Source/Ji-libxml/list.h"; sourceTree = "<group>"; };
 		295EA5AD6B94824349E18FEDB10D107D /* debugXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = debugXML.h; path = "Source/Ji-libxml/debugXML.h"; sourceTree = "<group>"; };
+		2DFFE94FA3BD53A9B66AF89FBF4D8539 /* Pods-RealmVideoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealmVideoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		30B781E42D21B678AB1873BAA5B2A175 /* xmlIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlIO.h; path = "Source/Ji-libxml/xmlIO.h"; sourceTree = "<group>"; };
 		33FBCEA79F34847536396F9D1F3EC34D /* c14n.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c14n.h; path = "Source/Ji-libxml/c14n.h"; sourceTree = "<group>"; };
 		3DDD15ED82A8D20203D865EC43FAD364 /* nanoftp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nanoftp.h; path = "Source/Ji-libxml/nanoftp.h"; sourceTree = "<group>"; };
 		3EF226E1F4B2230AD9F376A3DDC0A3F8 /* xmlstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlstring.h; path = "Source/Ji-libxml/xmlstring.h"; sourceTree = "<group>"; };
 		431EEA90403F3063B6B1C4BE76979E83 /* uri.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uri.h; path = "Source/Ji-libxml/uri.h"; sourceTree = "<group>"; };
-		4C01D1E5A8827752C290AEC2D69C5997 /* Ji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		440352AE1CAE6907862883D5E9F3EC3F /* Ji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E72765548F4F0A10FC30E9F275A1C7 /* Pods_RealmVideoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmVideoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDE489740456BBF5757823CF20D6606 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5040558FE32F34E0FFE69C34086BC162 /* Pods-RealmVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		5215646EC7EB442D0F66C8B4BE6977C9 /* Pods-RealmVideo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealmVideo-acknowledgements.plist"; sourceTree = "<group>"; };
 		5334D5F6174249D312F86615C0B15BA0 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = "Source/Ji-libxml/dict.h"; sourceTree = "<group>"; };
 		57737C4EE146DABFF275D43F37942ED7 /* SAX2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX2.h; path = "Source/Ji-libxml/SAX2.h"; sourceTree = "<group>"; };
 		5D25B189C3B1ACF2A3C389EC452BECF4 /* encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encoding.h; path = "Source/Ji-libxml/encoding.h"; sourceTree = "<group>"; };
-		5E39D4022DB35B883B73505E603D50FE /* Pods-RealmVideo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmVideo-resources.sh"; sourceTree = "<group>"; };
 		616DF624486EE1A9C3A2AF812209BCB1 /* xmlsave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlsave.h; path = "Source/Ji-libxml/xmlsave.h"; sourceTree = "<group>"; };
 		64EC44A09D4AE1358B9B8674B39F28E5 /* xmlschemastypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlschemastypes.h; path = "Source/Ji-libxml/xmlschemastypes.h"; sourceTree = "<group>"; };
-		6A269B0175FDE8103FC8025C25276A79 /* Pods_RealmVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A2C48780EEC0B82AF0B6A31CF8870FA /* Ji.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Ji.modulemap; sourceTree = "<group>"; };
 		6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ji-dummy.m"; sourceTree = "<group>"; };
 		7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ji-umbrella.h"; sourceTree = "<group>"; };
+		790871CEEB54CC86E84126D47DB391A2 /* Pods-RealmVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A762F4223FFF4682E7416EC025345CA /* Pods-RealmVideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealmVideo-umbrella.h"; sourceTree = "<group>"; };
 		7F31B5F30EA50FEF437B9EF93281BA45 /* xmlversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlversion.h; path = "Source/Ji-libxml/xmlversion.h"; sourceTree = "<group>"; };
 		80D31C7B982F7565127DD5C88544EB48 /* catalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = catalog.h; path = "Source/Ji-libxml/catalog.h"; sourceTree = "<group>"; };
 		8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ji.xcconfig; sourceTree = "<group>"; };
 		851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ji.swift; path = Source/Ji.swift; sourceTree = "<group>"; };
+		853C81EC6B79850BBDA8977B643AE085 /* Pods-RealmVideo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealmVideo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85E364163845AD30451076C7238C85A6 /* chvalid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chvalid.h; path = "Source/Ji-libxml/chvalid.h"; sourceTree = "<group>"; };
 		8A1A2B93B4823172875B13036DA2F376 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AC91B05332B44CF62ADD33A5397BA68 /* xmlwriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlwriter.h; path = "Source/Ji-libxml/xmlwriter.h"; sourceTree = "<group>"; };
-		8C309BDD27B0F40ED7C34AA1354CFF99 /* Pods-RealmVideo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmVideo-frameworks.sh"; sourceTree = "<group>"; };
 		9360BE60B86BAF758E0A1FB387A50F1E /* HTMLparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLparser.h; path = "Source/Ji-libxml/HTMLparser.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		966CC92E888AFA43F0FF415BFFA8CC03 /* xmlschemas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlschemas.h; path = "Source/Ji-libxml/xmlschemas.h"; sourceTree = "<group>"; };
 		97FA78EDD9D13B12A112F4CBD1E43DF9 /* xpath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpath.h; path = "Source/Ji-libxml/xpath.h"; sourceTree = "<group>"; };
-		97FE5341122140BF66224A9FC5355FEF /* Pods-RealmVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealmVideo-dummy.m"; sourceTree = "<group>"; };
 		98EB00CA2E48953775946631206AA905 /* xmlautomata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlautomata.h; path = "Source/Ji-libxml/xmlautomata.h"; sourceTree = "<group>"; };
 		990B7114C3BECAA7BB9A37B1EF502978 /* xmlexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlexports.h; path = "Source/Ji-libxml/xmlexports.h"; sourceTree = "<group>"; };
+		9ADE81ECE60C96A24105683AEEFA9C4C /* Pods-RealmVideoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealmVideoTests.modulemap"; sourceTree = "<group>"; };
 		9B6C473D01EC0D605424BB0F1A9FA5E9 /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = "Source/Ji-libxml/parser.h"; sourceTree = "<group>"; };
-		9F677537C695F4BD329DD574786665C9 /* Pods-RealmVideo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealmVideo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D11A4CB04050E8ACF1074ED4BCED767 /* Pods-RealmVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmVideoTests.release.xcconfig"; sourceTree = "<group>"; };
 		A38AE3B8E142CA64C35F660EEB5D4B21 /* HTMLtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLtree.h; path = "Source/Ji-libxml/HTMLtree.h"; sourceTree = "<group>"; };
 		A4A2B7201F243FCC98FC90515853F4E5 /* schemasInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schemasInternals.h; path = "Source/Ji-libxml/schemasInternals.h"; sourceTree = "<group>"; };
-		A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE /* Pods-RealmVideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealmVideo-umbrella.h"; sourceTree = "<group>"; };
 		AEE8A1EF2ED2BD3AB6092E62807BA4AC /* parserInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parserInternals.h; path = "Source/Ji-libxml/parserInternals.h"; sourceTree = "<group>"; };
+		AF5F2EBBE619B77B3949FC1EBC3C021F /* Pods-RealmVideoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealmVideoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFE053EB90F0D7D7E6C854655A1D19AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B680DF30107B87DEA4B6D4E29D1F65A7 /* entities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entities.h; path = "Source/Ji-libxml/entities.h"; sourceTree = "<group>"; };
 		B831AD90CECF5DA2347E71B481E8DF44 /* globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globals.h; path = "Source/Ji-libxml/globals.h"; sourceTree = "<group>"; };
 		BD3E5F1DD06896D732A50F2F7FAE9CFE /* threads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threads.h; path = "Source/Ji-libxml/threads.h"; sourceTree = "<group>"; };
+		BF0E3C6ABCBDC37F2F80703E73BD83AF /* Pods-RealmVideo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmVideo-resources.sh"; sourceTree = "<group>"; };
 		BF5F12178DBF0C5DD0008E0EC5FDC9CC /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = "Source/Ji-libxml/hash.h"; sourceTree = "<group>"; };
-		C1BB97FDF326D07DC972F719EE97231E /* Pods-RealmVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmVideo.release.xcconfig"; sourceTree = "<group>"; };
 		C74EA216CCF31F0B1118FFCB5492E5C6 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = "Source/Ji-libxml/tree.h"; sourceTree = "<group>"; };
 		CAA40C28B18676A0C7D854A0DE266AB5 /* xmlmodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmodule.h; path = "Source/Ji-libxml/xmlmodule.h"; sourceTree = "<group>"; };
+		CC9349D4DA5933D2AFAA2AB84EFAD0FA /* Pods-RealmVideoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealmVideoTests-umbrella.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D25DECF3EA02C5A4541179F978A078C2 /* pattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pattern.h; path = "Source/Ji-libxml/pattern.h"; sourceTree = "<group>"; };
 		D791893AD099AFA7750BAB36AF261E4A /* xmlerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlerror.h; path = "Source/Ji-libxml/xmlerror.h"; sourceTree = "<group>"; };
+		D99B3618245DC25879162C5419133A65 /* Pods-RealmVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealmVideo-dummy.m"; sourceTree = "<group>"; };
 		DEA356F9F6A72B750513F646CCB88352 /* xpointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpointer.h; path = "Source/Ji-libxml/xpointer.h"; sourceTree = "<group>"; };
-		E2808AFB192C7A8B085E06527803AA37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6355AE70DF52F61B59681D02757AB87 /* Pods-RealmVideoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealmVideoTests-frameworks.sh"; sourceTree = "<group>"; };
+		E6871C917E4541663F3350FDF3F749B7 /* Pods-RealmVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealmVideo.release.xcconfig"; sourceTree = "<group>"; };
 		E68AC3A3F72B9FB63FF122ED3E706573 /* xmlmemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmemory.h; path = "Source/Ji-libxml/xmlmemory.h"; sourceTree = "<group>"; };
-		EC06355F8DD0D5CC290DF6058151B155 /* Pods-RealmVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealmVideo.modulemap"; sourceTree = "<group>"; };
+		F20B69449EDE9E4BFB52F9711A1209B2 /* Pods_RealmVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34F039218BBB93B1894BAFECB5A7409 /* Ji-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ji-prefix.pch"; sourceTree = "<group>"; };
+		F5A52DC15FDBB2E80C38E726C2F8067F /* Pods-RealmVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealmVideo.modulemap"; sourceTree = "<group>"; };
 		F8518BF57F1CD232BF7CC037689F3AE7 /* xinclude.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xinclude.h; path = "Source/Ji-libxml/xinclude.h"; sourceTree = "<group>"; };
 		FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiHelper.swift; path = Source/JiHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,24 +177,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E796341D9982BAC8CF74E8C4CDF56B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C889BCE692A0ECA98B1DEF0814824D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DE72717F59D3385C825BEBBABA0C935 /* Targets Support Files */ = {
+		08A714E7242898FD4EFBCABAB6CA135B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A1EBD05C3405E0212CC06B94F605FDE /* Pods-RealmVideo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2BA87992B3B39FC20A40A9759A86C324 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4C01D1E5A8827752C290AEC2D69C5997 /* Ji.framework */,
-				6A269B0175FDE8103FC8025C25276A79 /* Pods_RealmVideo.framework */,
+				440352AE1CAE6907862883D5E9F3EC3F /* Ji.framework */,
+				F20B69449EDE9E4BFB52F9711A1209B2 /* Pods_RealmVideo.framework */,
+				46E72765548F4F0A10FC30E9F275A1C7 /* Pods_RealmVideoTests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3D9EEA63E10814A7A4D025275EDC5FB7 /* Pods-RealmVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE053EB90F0D7D7E6C854655A1D19AA /* Info.plist */,
+				9ADE81ECE60C96A24105683AEEFA9C4C /* Pods-RealmVideoTests.modulemap */,
+				AF5F2EBBE619B77B3949FC1EBC3C021F /* Pods-RealmVideoTests-acknowledgements.markdown */,
+				2DFFE94FA3BD53A9B66AF89FBF4D8539 /* Pods-RealmVideoTests-acknowledgements.plist */,
+				117D6627DC7B43E799C737DFBC88D3C2 /* Pods-RealmVideoTests-dummy.m */,
+				E6355AE70DF52F61B59681D02757AB87 /* Pods-RealmVideoTests-frameworks.sh */,
+				1152C56A74C53665DC9455FE17F3153B /* Pods-RealmVideoTests-resources.sh */,
+				CC9349D4DA5933D2AFAA2AB84EFAD0FA /* Pods-RealmVideoTests-umbrella.h */,
+				790871CEEB54CC86E84126D47DB391A2 /* Pods-RealmVideoTests.debug.xcconfig */,
+				9D11A4CB04050E8ACF1074ED4BCED767 /* Pods-RealmVideoTests.release.xcconfig */,
+			);
+			name = "Pods-RealmVideoTests";
+			path = "Target Support Files/Pods-RealmVideoTests";
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -189,6 +222,24 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		4CC7FFA4CB453A0E0EA0160C6C1077F8 /* Pods-RealmVideo */ = {
+			isa = PBXGroup;
+			children = (
+				4FDE489740456BBF5757823CF20D6606 /* Info.plist */,
+				F5A52DC15FDBB2E80C38E726C2F8067F /* Pods-RealmVideo.modulemap */,
+				853C81EC6B79850BBDA8977B643AE085 /* Pods-RealmVideo-acknowledgements.markdown */,
+				5215646EC7EB442D0F66C8B4BE6977C9 /* Pods-RealmVideo-acknowledgements.plist */,
+				D99B3618245DC25879162C5419133A65 /* Pods-RealmVideo-dummy.m */,
+				0AC5AD1689E76387D52333466F5F4E9D /* Pods-RealmVideo-frameworks.sh */,
+				BF0E3C6ABCBDC37F2F80703E73BD83AF /* Pods-RealmVideo-resources.sh */,
+				7A762F4223FFF4682E7416EC025345CA /* Pods-RealmVideo-umbrella.h */,
+				5040558FE32F34E0FFE69C34086BC162 /* Pods-RealmVideo.debug.xcconfig */,
+				E6871C917E4541663F3350FDF3F749B7 /* Pods-RealmVideo.release.xcconfig */,
+			);
+			name = "Pods-RealmVideo";
+			path = "Target Support Files/Pods-RealmVideo";
 			sourceTree = "<group>";
 		};
 		50DD815E995A0B0379F4C60A9146FE10 /* Ji-libxml */ = {
@@ -254,32 +305,14 @@
 			name = Ji;
 			sourceTree = "<group>";
 		};
-		6A1EBD05C3405E0212CC06B94F605FDE /* Pods-RealmVideo */ = {
-			isa = PBXGroup;
-			children = (
-				E2808AFB192C7A8B085E06527803AA37 /* Info.plist */,
-				EC06355F8DD0D5CC290DF6058151B155 /* Pods-RealmVideo.modulemap */,
-				0198AA483AAD14F2649919D1450FA169 /* Pods-RealmVideo-acknowledgements.markdown */,
-				9F677537C695F4BD329DD574786665C9 /* Pods-RealmVideo-acknowledgements.plist */,
-				97FE5341122140BF66224A9FC5355FEF /* Pods-RealmVideo-dummy.m */,
-				8C309BDD27B0F40ED7C34AA1354CFF99 /* Pods-RealmVideo-frameworks.sh */,
-				5E39D4022DB35B883B73505E603D50FE /* Pods-RealmVideo-resources.sh */,
-				A6FC1A2CB37E1FE8DF55A0F8CF9AD9FE /* Pods-RealmVideo-umbrella.h */,
-				09AEAA47AB218CE728897D089159A1ED /* Pods-RealmVideo.debug.xcconfig */,
-				C1BB97FDF326D07DC972F719EE97231E /* Pods-RealmVideo.release.xcconfig */,
-			);
-			name = "Pods-RealmVideo";
-			path = "Target Support Files/Pods-RealmVideo";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7EEC4DFDB9898E51217179C48DFA6ED7 /* Pods */,
-				2BA87992B3B39FC20A40A9759A86C324 /* Products */,
-				0DE72717F59D3385C825BEBBABA0C935 /* Targets Support Files */,
+				08A714E7242898FD4EFBCABAB6CA135B /* Products */,
+				C7771DCA7BA9C6E2AC592F9D442603B7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -307,6 +340,15 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7771DCA7BA9C6E2AC592F9D442603B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC7FFA4CB453A0E0EA0160C6C1077F8 /* Pods-RealmVideo */,
+				3D9EEA63E10814A7A4D025275EDC5FB7 /* Pods-RealmVideoTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		FC129F873C8046937630858D131339D1 /* Support Files */ = {
@@ -388,9 +430,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7A5A864A323699CB14B9209C9707301 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033D989B1E9978C4A8FA63D47CE2ADAF /* Pods-RealmVideoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5BEA2176819DED3A97CD8E1E0262B130 /* Pods-RealmVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A6FD613CA511D2C835D999F78F214 /* Build configuration list for PBXNativeTarget "Pods-RealmVideoTests" */;
+			buildPhases = (
+				4C4B98040D446F1EF5D193DC45975A26 /* Sources */,
+				E796341D9982BAC8CF74E8C4CDF56B6E /* Frameworks */,
+				C7A5A864A323699CB14B9209C9707301 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RealmVideoTests";
+			productName = "Pods-RealmVideoTests";
+			productReference = 46E72765548F4F0A10FC30E9F275A1C7 /* Pods_RealmVideoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6FE099F74B9E89D062E021704CFF3125 /* Pods-RealmVideo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16EC1BF13098E416E386C39B0B299F94 /* Build configuration list for PBXNativeTarget "Pods-RealmVideo" */;
@@ -406,7 +473,7 @@
 			);
 			name = "Pods-RealmVideo";
 			productName = "Pods-RealmVideo";
-			productReference = 6A269B0175FDE8103FC8025C25276A79 /* Pods_RealmVideo.framework */;
+			productReference = F20B69449EDE9E4BFB52F9711A1209B2 /* Pods_RealmVideo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C4F1DB440B42642636E376448A196E87 /* Ji */ = {
@@ -423,7 +490,7 @@
 			);
 			name = Ji;
 			productName = Ji;
-			productReference = 4C01D1E5A8827752C290AEC2D69C5997 /* Ji.framework */;
+			productReference = 440352AE1CAE6907862883D5E9F3EC3F /* Ji.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -443,17 +510,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2BA87992B3B39FC20A40A9759A86C324 /* Products */;
+			productRefGroup = 08A714E7242898FD4EFBCABAB6CA135B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C4F1DB440B42642636E376448A196E87 /* Ji */,
 				6FE099F74B9E89D062E021704CFF3125 /* Pods-RealmVideo */,
+				5BEA2176819DED3A97CD8E1E0262B130 /* Pods-RealmVideoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4C4B98040D446F1EF5D193DC45975A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5D45379802B1EA97825C14900E965E /* Pods-RealmVideoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64E99971FDAB7CD9E1E259BD313FF27D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -487,7 +563,7 @@
 /* Begin XCBuildConfiguration section */
 		0BBD114B84B8B1605AEF27C879E58754 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09AEAA47AB218CE728897D089159A1ED /* Pods-RealmVideo.debug.xcconfig */;
+			baseConfigurationReference = 5040558FE32F34E0FFE69C34086BC162 /* Pods-RealmVideo.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -519,9 +595,42 @@
 			};
 			name = Debug;
 		};
+		210BB275A59E2CDC37C24F00D4EEB59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790871CEEB54CC86E84126D47DB391A2 /* Pods-RealmVideoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmVideoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmVideoTests/Pods-RealmVideoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmVideoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2FFB106B801C410A11EBD683153BA75B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1BB97FDF326D07DC972F719EE97231E /* Pods-RealmVideo.release.xcconfig */;
+			baseConfigurationReference = E6871C917E4541663F3350FDF3F749B7 /* Pods-RealmVideo.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -617,6 +726,39 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		482277F7F259696EFF919D4542B19519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D11A4CB04050E8ACF1074ED4BCED767 /* Pods-RealmVideoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RealmVideoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealmVideoTests/Pods-RealmVideoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealmVideoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -717,6 +859,15 @@
 			buildConfigurations = (
 				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
 				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A6FD613CA511D2C835D999F78F214 /* Build configuration list for PBXNativeTarget "Pods-RealmVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210BB275A59E2CDC37C24F00D4EEB59A /* Debug */,
+				482277F7F259696EFF919D4542B19519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4C383C75B13BD708C48FF8 /* Pods_RealmVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7300D45CE874A8B451E76 /* Pods_RealmVideoTests.framework */; };
 		31A61B5BD38A3839D04C1DA8 /* Pods_RealmVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135089E89E18A4F860ECA9D3 /* Pods_RealmVideo.framework */; };
 		AE01EFB01CDD2D6D00F200D3 /* BrowseVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */; };
 		AE01EFB21CDD478000F200D3 /* RealmParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01EFB11CDD478000F200D3 /* RealmParser.swift */; };
@@ -38,7 +39,9 @@
 
 /* Begin PBXFileReference section */
 		135089E89E18A4F860ECA9D3 /* Pods_RealmVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B7300D45CE874A8B451E76 /* Pods_RealmVideoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmVideoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0E7746FA19BA886151C81C /* Pods-RealmVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmVideo/Pods-RealmVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		926B39296EB993F528C39485 /* Pods-RealmVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmVideoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmVideoTests/Pods-RealmVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE01EFAF1CDD2D6D00F200D3 /* BrowseVideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseVideosViewController.swift; sourceTree = "<group>"; };
 		AE01EFB11CDD478000F200D3 /* RealmParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmParser.swift; sourceTree = "<group>"; };
 		AE01EFB31CDD479300F200D3 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 		AE91EF111CE1DA9400EDBB3C /* LinkValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkValidator.swift; sourceTree = "<group>"; };
 		AEB1B9FA1CDC02360037D310 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B422BF8E544C74BA5549BBBE /* Pods-RealmVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmVideo/Pods-RealmVideo.release.xcconfig"; sourceTree = "<group>"; };
+		F3A1A8596B0A8C1F39C6F5C7 /* Pods-RealmVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmVideoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmVideoTests/Pods-RealmVideoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4C383C75B13BD708C48FF8 /* Pods_RealmVideoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				135089E89E18A4F860ECA9D3 /* Pods_RealmVideo.framework */,
+				28B7300D45CE874A8B451E76 /* Pods_RealmVideoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,6 +100,8 @@
 			children = (
 				8A0E7746FA19BA886151C81C /* Pods-RealmVideo.debug.xcconfig */,
 				B422BF8E544C74BA5549BBBE /* Pods-RealmVideo.release.xcconfig */,
+				926B39296EB993F528C39485 /* Pods-RealmVideoTests.debug.xcconfig */,
+				F3A1A8596B0A8C1F39C6F5C7 /* Pods-RealmVideoTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -217,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE73491A1CE4CFFE007416A8 /* Build configuration list for PBXNativeTarget "RealmVideoTests" */;
 			buildPhases = (
+				DD14D9E6FB70818DE9044E8C /* 📦 Check Pods Manifest.lock */,
 				AE73490F1CE4CFFE007416A8 /* Sources */,
 				AE7349101CE4CFFE007416A8 /* Frameworks */,
 				AE7349111CE4CFFE007416A8 /* Resources */,
+				1F115AD5793901760AEA5022 /* 📦 Embed Pods Frameworks */,
+				EFA78BAC3A2CF1332C9E04E6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,6 +316,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		1F115AD5793901760AEA5022 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmVideoTests/Pods-RealmVideoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D5BB02A866E329CEBE391E2 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +359,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmVideo/Pods-RealmVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD14D9E6FB70818DE9044E8C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA78BAC3A2CF1332C9E04E6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmVideoTests/Pods-RealmVideoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -506,6 +562,7 @@
 		};
 		AE73491B1CE4CFFE007416A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926B39296EB993F528C39485 /* Pods-RealmVideoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RealmVideoTests/Info.plist;
@@ -518,6 +575,7 @@
 		};
 		AE73491C1CE4CFFE007416A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A1A8596B0A8C1F39C6F5C7 /* Pods-RealmVideoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RealmVideoTests/Info.plist;
@@ -556,6 +614,7 @@
 				AE73491C1CE4CFFE007416A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
