@@ -10,10 +10,6 @@ import UIKit
 import AVFoundation
 import MediaPlayer
 
-let horizontalMargin: CGFloat = 10.0
-let verticalMargin: CGFloat = 50.0
-let speakerDeckNavBarHeight: CGFloat = 27.0
-
 class RealmVideoViewController: UIViewController, UIWebViewDelegate {
     
     @IBOutlet weak var webView: UIWebView!
@@ -138,27 +134,19 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         }
     }
     
-    /// Returns the y coordinate of a given HTML #id element
-    func positionOfElementWithId(elementID: String) -> CGFloat {
-        let javascript = "function f(){ var r = document.getElementById('\(elementID)').getBoundingClientRect(); return '{{'+r.left+','+r.top+'},{'+r.width+','+r.height+'}}'; } f();"
-        let result = webView.stringByEvaluatingJavaScriptFromString(javascript)!
-        let rect = CGRectFromString(result)
-        return rect.origin.y
-    }
-    
     // MARK: - UIWebViewDelegate
     
     // Get position of the video and slides from the UIWebView
     func webViewDidFinishLoad(webView: UIWebView) {
         if positionOfSlides == nil && !webView.loading {
-            let position = positionOfElementWithId("slideshow-player") + speakerDeckNavBarHeight
+            let position = webView.yPositionOfElementWithID(PageElements.slideshowPlayer) + speakerDeckNavBarHeight
             positionOfSlides = position
         }
         
         if positionOfVideo == nil && !webView.loading {
-            let position = positionOfElementWithId("preroll-overlay")
+            let position = webView.yPositionOfElementWithID(PageElements.preRollOverlay)
             if position == 0.0 {
-                let youtubePosition = positionOfElementWithId("video-player")
+                let youtubePosition = webView.yPositionOfElementWithID(PageElements.videoPlayer)
                 positionOfVideo = youtubePosition
             } else {
                 positionOfVideo = position
