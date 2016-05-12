@@ -12,7 +12,7 @@ import MediaPlayer
 
 let horizontalMargin: CGFloat = 10.0
 let verticalMargin: CGFloat = 50.0
-let speakerDeckNavBarHeight = 27.0
+let speakerDeckNavBarHeight: CGFloat = 27.0
 
 class RealmVideoViewController: UIViewController, UIWebViewDelegate {
     
@@ -151,7 +151,7 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
     // Get position of the video and slides from the UIWebView
     func webViewDidFinishLoad(webView: UIWebView) {
         if positionOfSlides == nil && !webView.loading {
-            let position = positionOfElementWithId("slideshow-player") + CGFloat(speakerDeckNavBarHeight)
+            let position = positionOfElementWithId("slideshow-player") + speakerDeckNavBarHeight
             positionOfSlides = position
         }
         
