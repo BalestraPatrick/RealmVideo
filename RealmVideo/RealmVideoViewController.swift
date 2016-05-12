@@ -14,7 +14,7 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
     
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var slideImageView: UIImageView!
-    @IBOutlet var floatingSlides: UIView!
+    @IBOutlet weak var floatingSlides: FloatingSlides!
     
     var positionOfSlides: CGFloat?
     var positionOfVideo: CGFloat?
@@ -30,21 +30,6 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         webView.scrollView.scrollEnabled = false
         webView.alpha = 0.0
         webView.loadRequest(request)
-        
-        let singleTap = UITapGestureRecognizer(target: self, action: #selector(hideSlides))
-        singleTap.numberOfTapsRequired = 1
-        singleTap.numberOfTouchesRequired = 1
-        floatingSlides.addGestureRecognizer(singleTap)
-        
-        let pan = UIPanGestureRecognizer(target: self, action: #selector(moveSlides))
-        pan.maximumNumberOfTouches = 1
-        pan.minimumNumberOfTouches = 1
-        floatingSlides.addGestureRecognizer(pan)
-        singleTap.requireGestureRecognizerToFail(pan)
-        
-        floatingSlides.layer.shadowOffset = CGSize(width: 1, height: 1)
-        floatingSlides.layer.shadowColor = UIColor.blackColor().CGColor
-        floatingSlides.layer.shadowOpacity = 0.5
         
         let center = SlidePosition.BottomRight.snapTo(floatingSlides.frame)
         floatingSlides.center = center
@@ -68,46 +53,6 @@ class RealmVideoViewController: UIViewController, UIWebViewDelegate {
         
         rootViewController.view.addSubview(floatingSlides)
         rootViewController.view.bringSubviewToFront(floatingSlides)
-    }
-    
-    /// Move the slides to the next corner
-    func moveSlides(pan: UIPanGestureRecognizer) {
-        switch pan.state {
-        case .Changed:
-            if let view = pan.view {
-                let translation = pan.translationInView(view)
-                view.center = CGPoint(x: view.center.x + translation.x, y: view.center.y + translation.y)
-                pan.setTranslation(CGPointZero, inView: view)
-            }
-        case .Ended:
-            if let panView = pan.view {
-                UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 2.0, options: [], animations: {
-                    self.snapPositionToNearestPoint(panView.center, view: panView)
-                    }, completion: nil)
-            }
-        default: break
-        }
-    }
-    
-    /// Snap the slides to the nearest corner.
-    ///
-    /// - parameter point: Point where the view was released.
-    /// - parameter view:  Floating view displaying the slides.
-    func snapPositionToNearestPoint(point: CGPoint, view: UIView) {
-        let sector = SlidePosition.findPosition(point, slidesSize: view.frame)
-        let snappedCenter = sector.snapTo(view.frame)
-        view.center = snappedCenter
-    }
-    
-    /// Hide the slides with a single tap
-    func hideSlides() {
-        var alpha: CGFloat = 1.0
-        if floatingSlides.alpha == 1.0 {
-            alpha = 0.1
-        }
-        UIView.animateWithDuration(1.0) {
-            self.floatingSlides.alpha = alpha
-        }
     }
     
     /// Take screenshot each second of the slides view and update the floating view

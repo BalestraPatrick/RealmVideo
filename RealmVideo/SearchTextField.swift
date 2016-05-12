@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol LinkUpdater: class {
+protocol LinkUpdater {
     func updateLinkUI(isValid: Bool)
 }
 
 @IBDesignable class SearchTextField: UITextField, UITextFieldDelegate {
     
-    weak var linkUpdaterDelegate: LinkUpdater?
+    var linkUpdaterDelegate: LinkUpdater?
     
     // MARK: - Initialization
     
