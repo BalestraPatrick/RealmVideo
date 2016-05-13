@@ -7,5 +7,5 @@ before_install:
 - gem install cocoapods
 
 script:
-- set -o pipefail && xctool build -workspace RealmVideo.xcworkspace -scheme RealmVideo -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' ONLY_ACTIVE_ARCH=NO | xcpretty
-- set -o pipefail && xctool test -workspace RealmVideo.xcworkspace -scheme RealmVideoTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xctool -workspace RealmVideo.xcworkspace -scheme RealmVideo -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' ONLY_ACTIVE_ARCH=NO build test | xcpretty
+# - set -o pipefail && xctool test -workspace RealmVideo.xcworkspace -scheme RealmVideoTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' ONLY_ACTIVE_ARCH=NO | xcpretty
