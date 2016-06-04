@@ -20,16 +20,16 @@ class RealmParser {
     init() throws {
         let url = NSURL(string: "https://realm.io/news/")!
         let document = Ji(htmlURL: url)
-        let possiblePosts = document?.xPath("//div[contains(concat(' ', @class, ' '), ' post ')]")
+        let possiblePosts = document?.xPath("//div[contains(concat(' ', @class, ' '), ' article ')]")
         guard let posts = possiblePosts else { throw ParserError.Offline }
         
         for post in posts {
             if let attributes = post.attributes["data-tags"] where attributes.containsString("video") {
                 for child in post.children {
-                    let a = child.firstChildWithName("a")!
-                    let content = a.content!
-                    let link = a.attributes["href"]!
-                    if content != "Read More…" {
+                    let link = child.attributes["href"]
+                    let content = child.firstDescendantWithAttributeName("class", attributeValue: "news-headline hidden-xs")?.content
+                    _ = attributes // TODO: show tags in UI for better discovery
+                    if let content = content where content != "Read More…", let link = link {
                         videos.append(Video(title: content, url: "https://realm.io\(link)"))
                     }
                 }
